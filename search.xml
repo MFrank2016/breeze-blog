@@ -4,13 +4,224 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/breeze-blog/2020/05/01/hello-world/"/>
-      <url>/breeze-blog/2020/05/01/hello-world/</url>
+      <title>【Java入门篇】小结</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-primer-conclusion/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-primer-conclusion/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>只要你在，我便无所不能。 – 《进击的巨人》</p></blockquote><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>至此，Java入门篇就告一段落了，通过本篇的学习，希望你能掌握以下内容：</p><ol><li>Java有哪些用途</li><li>部署JDK</li><li>安装IDEA</li><li>使用IDEA创建一个类</li><li>使用IDEA开发一个简单的计算器</li></ol><p>Java入门篇的内容很简单，目的也只是为了让零基础的人能够快速上手Java并开发一个可以运行的程序，降低学习的门槛，增加学习的乐趣。</p><p>如果你已经顺利完成了以上内容的学习，那么恭喜你，已经完成了新手的第一阶段试炼。后面的篇章就要真正开始Java中核心内容的介绍了，如果你学习的热情有幸还没有被浇灭，那么就拿着你的新手套装，在这场征程里继续前行吧。😆</p>]]></content>
       
       
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】六、Java简单示例</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-simple-example/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-simple-example/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>人都有两面，一面天使，一面恶魔。</p></blockquote><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了统一风格，也为了增加趣味性，以后的文章都会以关卡的形式进行展示，这样也能让大家明确每一篇的目标，带着目的来阅读会更有方向感。</p><p>之前已经写过了Hello World，所以这次就换一个吧，这次的小目标便是——Java简易版计算器。</p><h2 id="功能说明"><a href="#功能说明" class="headerlink" title="功能说明"></a>功能说明</h2><p>第一版的Java计算器仅需要支持加法运算，用户输入两个数字，然后输出它们的和。</p><h2 id="方法预习"><a href="#方法预习" class="headerlink" title="方法预习"></a>方法预习</h2><p>如果是刚开始接触编程，也许你会毫无头绪，莫方，这是很正常的现象，因为你对于如何与计算机尤其是命令行进行交互毫无头绪。</p><p>所以在开始编码前，需要先预习一些必要的知识。</p><h3 id="输出信息"><a href="#输出信息" class="headerlink" title="输出信息"></a>输出信息</h3><p>先来认识一个方法 <code>System.out.println()</code>，这个方法会将你传入的信息输出到控制台中，emmm，什么是控制台？你运行程序后出现的那个黑不拉几的东西就叫做控制台，它是我们与计算机交互的一个最简单原始的方式。</p><p>来试验一下，还记得如何用idea创建一个类吗？不记得的话翻看一下<a href="java-ide.md">这里</a>。</p><p>这次我们继续在hello包下面创建一个类叫做PrintTest，然后添加以下方法：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> hello<span class="token punctuation">;</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PrintTest</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"输出测试"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p>然后我们点击运行，或者按键（<code>ctrl+shift+R</code>），就能看到下面的输出了：</p><img src="/breeze-blog/2020/05/01/java/introduction/java-simple-example/java-simple-example-1.png" class="" title="java-example"><p>先不要问这个System是个什么东西，只要知道这样可以输出一行信息就行了，需要注意的是这个方法默认会在末尾加一个换行符，如果想要不换行，可以试试 <code>System.out.print()</code>。</p><h3 id="输入信息"><a href="#输入信息" class="headerlink" title="输入信息"></a>输入信息</h3><p>上面已经说过如何输出信息了，现在来看看如何输入信息并进行读取。</p><p>先来认识一下Scanner类，Scanner类是用来从各种输入源读取信息的，它可以从各种输入源中读取信息，最常用的当然就是控制台输入。那如何用Scanner读取控制台的输入呢？这就要用到System.in了，来看栗子，我们再新建一个InputTest类：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> hello<span class="token punctuation">;</span><span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Scanner<span class="token punctuation">;</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">InputTest</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>        Scanner in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请输入一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">int</span> a <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"刚才输入的整数为："</span> <span class="token operator">+</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p>然后再运行一下，并且输入一个数字然后按回车键，这里我输入的是20：</p><img src="/breeze-blog/2020/05/01/java/introduction/java-simple-example/java-simple-example-2.png" class="" title="java-example"><p>如果对于具体的细节还不清楚，没有关系，先照做就好了。</p><h2 id="代码编写"><a href="#代码编写" class="headerlink" title="代码编写"></a>代码编写</h2><p>那么接下来就开始设计这个最简单的计算器了，首先我们要提示用户输入一个整数，就像上面那样：</p><pre class=" language-java"><code class="language-java">System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请输入一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>然后用一个int变量来存储，什么？不知道变量是干嘛的？没事，你可以先把它当做一个盒子，用来把用户输入的信息存放进去。</p><pre class=" language-java"><code class="language-java">Scanner in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token keyword">int</span> a <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>然后提示用户再输入一个整数：</p><pre class=" language-java"><code class="language-java">System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请输入另一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>然后再用一个int变量来存储。</p><pre class=" language-java"><code class="language-java"><span class="token keyword">int</span> b <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>接下来计算两者的和，并存到第三个变量中：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">int</span> sum <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span></code></pre><p>最后输出这个和：</p><pre class=" language-java"><code class="language-java">System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"这两个数的和为:"</span> <span class="token operator">+</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>所以整体代码如下：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> hello<span class="token punctuation">;</span><span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Scanner<span class="token punctuation">;</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SimpleCalculator</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请输入一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        Scanner in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">int</span> a <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请再输入一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">int</span> b <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">int</span> sum <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"这两个数的和为:"</span> <span class="token operator">+</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p>输出如下：</p><img src="/breeze-blog/2020/05/01/java/introduction/java-simple-example/java-simple-example-3.png" class="" title="java-example"><p>这样，我们的简易版计算器就完成了。虽然简单，但还是建议你在自己电脑上实现一次，看代码和写代码是完全不一样的两种体验。</p><p>回顾一下本篇，我们设计了一个类<code>SimpleCalculator</code>，并编写了一个main方法，并在里面完成了简易版计算器的逻辑设计。也许你对于自己写的东西还有很多疑问，对象是什么？类又是什么含义？Scanner还可以做什么？前面的package有什么作用，import又是在干嘛？别着急，接着看后面的文章，相信你的疑问会一点一点消失。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】五、Java 开发简介</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-introduction/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-introduction/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>每个人都衣冠楚楚，从来没有人会关心光芒万丈的外表下那藏在角落的，发了霉的落寞。  – 《西风》</p></blockquote><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>万事开头难，如果你已经顺利通过了前面安装环境的考验，那么恭喜你已经拿到了Java世界的钥匙，在打开这扇大门之前，我想再说说我玩这个游戏的一些经验，希望能帮助你在这个游戏里有更好的表现。</p><p>前面两篇已经介绍了Java开发环境搭建和IDE的下载安装，如果进行顺利的话，那么现在世界上最好的语言之一和世界上最好用的Java IDE（没有之一，不接受反驳）已经握在了你的手中。所以现在你所需要学习的，就是如何使用这些工具。</p><p>但在此之前，还想先说一说其他的内容。</p><h2 id="关于方向"><a href="#关于方向" class="headerlink" title="关于方向"></a>关于方向</h2><p>当你下定决心走上Java的探索之旅时，你需要确定一个大概的方向，有方向才会有学习下去的动力。</p><p>如果只是单纯的想体验一下Java开发是怎样的，那么可以跟着本系列文章进行尝试，选择学习使用Java来开发一个你想要的功能，比如学习如何用Java来开发一个定时提醒功能，在固定时间或者某些特定事件发生后给你发送闹铃提示或者邮件提示。又比如使用Java来开发QQ、微信机器人，自动接收群友消息并自动回复。兴趣是最好的老师，选择一个你感兴趣的方向，你才能走的更远。</p><p>如果你打算使用Java来找工作，并有较充沛的学习时间预算，那么我建议你多花一点时间在基础的内容上，把Java基础的部分啃透会让你在之后的学习里轻松很多。</p><p>如果你对Java有着强烈的兴趣，对Java有过一段时间的自学，但却因为无法坚持而中途放弃，那么我建议你找一批共同学习的伙伴，在相互交流探讨中，也许可以激发你学习的动力。</p><p>很多人会问，我不是学计算机相关的专业，我以前从未接触过编程，但是我想学Java，以后会不会不好找工作？跟别人比是不是没有竞争力？</p><p>对此，我只能负责任的说，是的，但也不全是。</p><p>有时候，选择比努力更重要，别人选了计算机专业，软件工程专业，在IT行业找工作，相对而言确实比非相关专业的人要容易一点。别人学了计算机四年，比你有优势不是应该的吗。</p><p>但也不要因此就觉得跨专业，跨行业是不可能的事情，事实上，很多Java从业者都不是计算机相关专业，他们带着各种各样的目的，通过各自的方法也同样走上了这条道路。</p><p>我分享的初衷，是希望能让那些对编程充满热情，但是却对未来充满迷茫和困惑的人提供一点方向。</p><h2 id="关于努力"><a href="#关于努力" class="headerlink" title="关于努力"></a>关于努力</h2><p>确定了方向，剩下的事情就只有努力了，就像在学生时代那样，想要考出更好的成绩，只需要不断的刷题学习和总结。</p><p>其实Java学习过程也一样，在Java这个游戏里，必须不断打怪升级才能提升自己，才能接到奖励更丰富的任务，也能获得更高的声望，声望高的人才能在这个游戏里获得别人的认可。</p><p>那如何在这个游戏里获得更好的游戏体验，如何更快更好的提升自我呢？那就是借助前人的经验，在这个游戏里有大批的老玩家，他们在这个游戏世界里已经徜徉了多年，有的满足于每天接循环任务来获取金币，有的喜欢去野外探险，寻找boss挑战，有的喜欢刷副本，企图刷出绝世装备。他们大都有一个自己的经验法则来帮助他们在这个游戏里更好的生存和发展。如果能在这个游戏里交到一个亦师亦友的朋友，那么无疑能给你极大的帮助。</p><p>但需要说明的一点是，努力的方式并不一定是通用的，因为每个人擅长的领域不一样，有的人反应很快，擅长单挑，所以通常是竞技场的常客，有的人擅长指挥，副本里队长名单里总有他们的身影。 就像之前所说，选择有时候比努力更重要，选择自己擅长的领域和方向去发展，也许会让你在这个游戏里有更重要的价值。</p><p>至于如何努力，我个人觉得，看书应该是首选，经典的书籍往往经过了反复斟酌的优质内容，才有了现在的口碑，所以书籍内容不会有太多漏洞，不会像有些不负责任的博主，写博客只是为了博得关注，遇到不确定的地方，要么仅凭自己猜测，要么一笔带过，误导了很多读者。</p><p>如果看书实在看不下去的话，可以看看经典的视频教程，慕课网的教程个人觉得还算不错，讲解比较形象，有兴趣的话可以去看看。</p><p>如果还是不行，那就找两个有意思的项目来研究一下。想想看如何用Java来提高生活质量，或者来帮助你完成一些重复性的体力劳动。比如用Java来批量爬取图片，批量将txt文件导入Excel等等。</p><h2 id="正式起航"><a href="#正式起航" class="headerlink" title="正式起航"></a>正式起航</h2><p>这几篇大概把我平生的废话都说完了，一本正经的胡说八道了这么久，有点不习惯。如果让你感到无聊了，十分抱歉。【面壁中】</p><p>如果你看完这些废话，觉得自己还是很有兴趣继续看下去，那么就让我们红尘作伴，活得潇潇洒洒。啊，说错了，说错了，让我们一起开始Java游戏世界的试炼吧！:stuck_out_tongue_closed_eyes:</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】四、Java开发环境搭建——IDE</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-ide/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-ide/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>不相信自己的人 连努力的价值都没有。 –《火影忍者》</p></blockquote><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前面我们已经安装好了JDK，现在Java这个大型游戏已经安装在我们的电脑里了，接下来我们就要准备学习如何玩这个游戏了。</p><p>在入门阶段，我建议选择简单模式来进行，那么一个好的IDE是必不可少的。</p><h2 id="什么是IDE"><a href="#什么是IDE" class="headerlink" title="什么是IDE"></a>什么是IDE</h2><p>IDE（integrated development enviroment）就是集成开发环境，是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面等工具。集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套（组）都可以叫集成开发环境。</p><p>简单来说，IDE就是将一系列工具集成到了一个应用里，让你的开发之旅变得更加容易。</p><h2 id="为什么需要IDE"><a href="#为什么需要IDE" class="headerlink" title="为什么需要IDE"></a>为什么需要IDE</h2><p>很多老玩家在指导刚入坑的新手时，都喜欢循循善诱，教导新手使用文本编辑器而非IDE，这样可以提高对整个编译流程的理解。讲道理，确实是这样的，但是却将开发的复杂度增加了许多，对于新手而言，每增加一个步骤，就是增加了无数种失败的姿势，很多人的学习热情就消耗在了这种无关痛痒的小问题上，觉得这个游戏怎么这么难。</p><p>所以我个人认为，开局一条狗，砍到99的打法并不适合每一个人，对于新手而言，先给一个新手套装，再来做任务会更加轻松。</p><h2 id="安装IDE"><a href="#安装IDE" class="headerlink" title="安装IDE"></a>安装IDE</h2><p>接下来，我们去官网下载IDEA：<a href="http://www.jetbrains.com/idea/" target="_blank" rel="noopener">http://www.jetbrains.com/idea/</a></p><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-1.png" class="" title="jdk-ide"><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-2.png" class="" title="jdk-ide"><p>根据自己的系统进行选择安装即可，这里就不分系统进行介绍了，下载的时候，可以选ultimate版，也可以选community版，建议选择ultimate版。</p><p>下载好以后安装，要激活码的时候可以看一看这个地址：<a href="http://idea.lanyus.com/" target="_blank" rel="noopener">http://idea.lanyus.com/</a> 使用前请将“0.0.0.0 account.jetbrains.com”添加到hosts文件中，然后输入激活码就能成功激活了。当然，此方法仅供学习研究使用，有经济能力的盆友还是自觉购买正版产品吧，反正我是没有经济能力的。</p><p>安装的时候，所有的都按默认选项进行安装即可。</p><h2 id="新建项目"><a href="#新建项目" class="headerlink" title="新建项目"></a>新建项目</h2><p>然后开始我们的第一个新手任务——HelloWorld。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-3.png" class="" title="jdk-ide"><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-4.png" class="" title="jdk-ide"><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-5.png" class="" title="jdk-ide"><p>创建好以后，右键src文件夹，添加package，名字叫hello，然后在package里添加HelloWorld类</p><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-6.png" class="" title="jdk-ide"><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-7.png" class="" title="jdk-ide"><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-8.png" class="" title="jdk-ide"><p>然后在文件里放上代码：</p><pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> hello<span class="token punctuation">;</span><span class="token keyword">import</span> java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>System<span class="token punctuation">;</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p>点击Run，运行程序，选择HelloWorld，代码就跑起来了。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-ide/java-ide-9.png" class="" title="jdk-ide"><p>至此，IDE设置完成，我们的第一个项目也完工。</p><p>如果在这个过程中遇到了任何问题，可以将关键词在百度中进行搜索，如果实在解决不了，可以加群【529253292】在群里提问，热心的群主自然会为你提供解决方案。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】三、Java开发环境搭建——Mac篇</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-environment-mac/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>人非圣贤，孰能无过？过而能改，善莫大焉。 –《左传》</p></blockquote><h2 id="步骤说明"><a href="#步骤说明" class="headerlink" title="步骤说明"></a>步骤说明</h2><p>主要分为以下几个步骤：</p><p>1.到Oracle官网下载JDK1.8安装包。</p><p>2.打开获取到的安装包按步骤安装到系统上。</p><p>3.配置系统的环境变量。</p><p>4.验证JDK1.8是否安装成功。</p><p>【由于电脑上已经安装过了jdk8，所以偷懒把别人的文章搬过来了，<a href="https://blog.csdn.net/deliciousion/article/details/78046007" target="_blank" rel="noopener">原文链接</a>】</p><h2 id="一、下载JDK8"><a href="#一、下载JDK8" class="headerlink" title="一、下载JDK8"></a>一、下载JDK8</h2><p>通过下面Oracle官网找到对应的JDK1.8安装包</p><p><a href="https://www.oracle.com/index.html" target="_blank" rel="noopener">https://www.oracle.com/index.html</a></p><p>打开后如下所示，Oracle主页内容经常变动，读者打开后很有可能不一样。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/1-jdk-mac.png" class="" title="jdk-mac"><p>拉到页面底部，找到“Download Java for Developers”，如下红框所示。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/2-jdk-mac.png" class="" title="jdk-mac"><p>点开链接后，如下图所示，再点击红框位置，只下载JDK1.8，红框右边的链接是JDK1.8加上NetBeans，一个挺好用的JAVA IDE（集成化开发环境），有需要的可以下载。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/3-jdk-mac.png" class="" title="jdk-mac"><p>进入页面后第一步，点击“Accept License Agreement”同意许可证协议。第二步选择JDK对应的操作系统。本次选择“MAC OS X”，最后把相应的安装包下载到本地。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/4-jdk-mac.png" class="" title="jdk-mac"><h2 id="二、安装JDK"><a href="#二、安装JDK" class="headerlink" title="二、安装JDK"></a>二、安装JDK</h2><p>下载完成后，我们得到一个dmg的安装包，如下图所示，名称为 jdk-8u144-macosx-x64.dmg ，表示这是Java 8版本号为144的JDK安装包。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/5-jdk-mac.png" class="" title="jdk-mac"><p>双击dmg安装包，打开如下图所示窗口。按照红框的提示，便可轻松完成安装。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/6-jdk-mac.png" class="" title="jdk-mac"><p>再双击中间的pkg文件，开始安装，如下图所示。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/7-jdk-mac.png" class="" title="jdk-mac"><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/9-jdk-mac.png" class="" title="jdk-mac"><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/10-jdk-mac.png" class="" title="jdk-mac"><h2 id="三、配置系统的环境变量"><a href="#三、配置系统的环境变量" class="headerlink" title="三、配置系统的环境变量"></a>三、配置系统的环境变量</h2><p>上一步骤，实标上，我们只是把JDK1.8的文件复制到操作系统上。但是我们如果要在terminal终端上使JAVA命令，还有让其实应用知道JDK1.8环境的存在，那我们还需要配置系统的环境变量。</p><p>首先我们得知道JDK目录安装在哪里，按照下面的路径我们可以找到JDK的主目录，如下图所示。这里有两个目录是因为本机较早前安装过早期版本的JDK1.8。</p><p>/Library/Java/JavaVirtualMachines</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/11-jdk-mac.png" class="" title="jdk-mac"><p>由于MAC文件系统结构，与WINDOWS有所不一样，所以jdk的真实主目录如下</p><p>/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home</p><p>打开terminal终端，默认打开在自身home家目录下，也可通过cd命令直接跳到家目录。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/12-jdk-mac.png" class="" title="jdk-mac"><p>通过 vim .bash_profile 命令打开启动文件，修改内容</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/13-jdk-mac.png" class="" title="jdk-mac"><p>进入vim，按I进入编辑状态。添加如下内容，如下图所示。再按ESC，输入“:wq”保存退出。配置系统环境变量结束。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/14-jdk-mac.png" class="" title="jdk-mac"><p>添加如下内容：</p><pre class=" language-bash"><code class="language-bash"><span class="token function">export</span> JAVA_HOME<span class="token operator">=</span>/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home</code></pre><p>注意将jdk1.8.0_45这里改为你下载的JDK版本，不清楚的话，到/Library/Java/JavaVirtualMachines/这个目录下找找。</p><h2 id="四、验证JDK1-8是否安装成功。"><a href="#四、验证JDK1-8是否安装成功。" class="headerlink" title="四、验证JDK1.8是否安装成功。"></a>四、验证JDK1.8是否安装成功。</h2><p>在终端输入java,有如下画面，证明配置成功</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/15-jdk-mac.png" class="" title="jdk-mac"><p>或输入java -version，有如下版本信息。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/16-jdk-mac.png" class="" title="jdk-mac"><p>至此，整个安装JDK1.8过程结束</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】二、Java开发环境搭建——Windows篇</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-environment-windows/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>你为了你的正义，我为了我的正义。 – 《火影忍者》</p></blockquote><h2 id="一、安装JDK"><a href="#一、安装JDK" class="headerlink" title="一、安装JDK"></a>一、安装JDK</h2><p>官网下载链接：<a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/1-jdk-windows.png" class="" title="jdk-windows"><h2 id="二、配置环境变量"><a href="#二、配置环境变量" class="headerlink" title="二、配置环境变量"></a>二、配置环境变量</h2><p>需要配置以下几个环境变量：</p><p>JAVA_HOME     配置JDK安装路径</p><p>PATH                  配置JDK命令文件的位置</p><p>CLASSPATH      配置类库文件的位置</p><h3 id="1、我的电脑（右键）–-gt-属性–-gt-高级系统设置"><a href="#1、我的电脑（右键）–-gt-属性–-gt-高级系统设置" class="headerlink" title="1、我的电脑（右键）–&gt;属性–&gt;高级系统设置"></a>1、我的电脑（右键）–&gt;属性–&gt;高级系统设置</h3><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/2-jdk-windows.png" class="" title="jdk-windows"><h3 id="2、环境变量–-gt-新建"><a href="#2、环境变量–-gt-新建" class="headerlink" title="2、环境变量–&gt;新建"></a>2、环境变量–&gt;新建</h3><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/3-jdk-windows.png" class="" title="jdk-windows"><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/4-jdk-windows.png" class="" title="jdk-windows"><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/5-jdk-windows.png" class="" title="jdk-windows">)<p>(1)新建-&gt;变量名”JAVA_HOME”，变量值”C:/Java/jdk1.8.0_144”（即JDK的安装路径） </p><p>(2)编辑-&gt;变量名”Path”，在原变量值的最后面加上“;%JAVA_HOME%/bin;%JAVA_HOME%/jre/bin” </p><p>(3)新建-&gt;变量名“CLASSPATH”,变量值“.;%JAVA_HOME%/lib;%JAVA_HOME%/lib/dt.jar;%JAVA_HOME%/lib/tools.jar”</p><h3 id="3、确认环境配置是否正确"><a href="#3、确认环境配置是否正确" class="headerlink" title="3、确认环境配置是否正确"></a>3、确认环境配置是否正确</h3><p>在控制台分别输入java，javac，java -version 命令，出现如下所示的JDK的编译器信息，包括修改命令的语法和参数选项等信息。</p><p>java命令：</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/6-jdk-windows.png" class="" title="jdk-windows"><p>javac命令：</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/7-jdk-windows.png" class="" title="jdk-windows"><p>java -version命令：</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/8-jdk-windows.png" class="" title="jdk-windows"><h3 id="4、在控制台下验证第一个java程序："><a href="#4、在控制台下验证第一个java程序：" class="headerlink" title="4、在控制台下验证第一个java程序："></a>4、在控制台下验证第一个java程序：</h3><p>右键–》新建–》文本文档</p><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>    System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><p>用记事本编写好，点击“保存”，并保存在桌面后，先在控制台中进入桌面的目录。</p><pre class=" language-bash"><code class="language-bash">C:<span class="token function">cd</span> /Users/<span class="token punctuation">[</span>用户名<span class="token punctuation">]</span>/Desktop</code></pre><p>上面的[用户名]改成你的计算机用户名即可，不清楚的话打开我的电脑，进C盘目录：C:/Users 找一下。</p><p>输入javac Test.java和java Test命令，即可运行程序（打印出结果“Hello Java”）。</p><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/9-jdk-windows.png" class="" title="jdk-windows"><p>至此，Java开发环境搭建成功。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】一、Java开发环境搭建——概念说明</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-environment/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-environment/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>如果不能忠于自己的心，胜负又有什么价值呢？</p></blockquote><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>前面说到Java也有一个大工厂，可以让你随心所欲的创建想要创建的事物，但是想要使用这个工厂，还得先部署这个工厂，它就是JDK。</p><p>在此之前，先介绍几个概念：JVM、JRE、JDK。</p><h2 id="JVM（Java-Virtual-Machine）"><a href="#JVM（Java-Virtual-Machine）" class="headerlink" title="JVM（Java Virtual Machine）"></a>JVM（Java Virtual Machine）</h2><p>JVM 即 Java虚拟机，是Java这个大工厂中的熔炉，也是驱动这个工厂运行的核心组件。</p><p>Java是能够跨平台运行的，也就是说，同样的代码可以不经修改的在windows系统、linux系统、mac系统上运行并得到相同的结果。JVM在这个过程中扮演着十分重要的角色，它就像一位翻译官，由它间接的与具体的系统打交道。不同系统有着不同的指令集，可以理解为有不同的语言，但JVM这位翻译官精通各个系统的语言，可以将我们的代码翻译给系统去执行。Java代码被编译为.class文件后，由虚拟机将字节码文件解释成具体平台上的机器指令。</p><p>JVM其实是一种规范，只要按这种规范设计的产品都可以叫做虚拟机，目前来说比较主流的虚拟机有，HotSpot、J9 VM、Zing VM。</p><h2 id="JRE（Java-Runtime-Environment）"><a href="#JRE（Java-Runtime-Environment）" class="headerlink" title="JRE（Java Runtime Environment）"></a>JRE（Java Runtime Environment）</h2><p>JRE 即 Java运行时环境，是运行 Java 程序必不可少的，既然是运行，自然要包含JVM，同时还包含了JVM标准实现及Java核心类库，提供了Java运行时必要的基础信息。光有JVM无法完成class的执行，因为在解释class的时候JVM需要调用解释所需要的类库lib。 可以这样理解，JVM只是一名翻译官，还需要各个助理才能完成各项具体任务，JRE 并不是一个开发环境，所以没有包含任何开发工具（如编译器和调试器）。</p><h2 id="JDK（Java-Development-Kit）"><a href="#JDK（Java-Development-Kit）" class="headerlink" title="JDK（Java Development Kit）"></a>JDK（Java Development Kit）</h2><p>JDK 是 Java 语言的软件开发工具包，是 Java 开发者所必须的内容，也就是我们之后要部署的东西，主要包含了各种类库和工具，当然也包含了一个JRE。</p><p>综上所述，JDK中包含有JRE，JRE中包含有JVM，所以JDK在手，天下我有【手动滑稽】。想要进行Java开发，就必须要部署JDK环境，但如果只是想要运行Java开发的软件，那么安装一个JRE就足够了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> 环境搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【Java入门篇】起航</title>
+      <link href="/breeze-blog/2020/05/01/java/introduction/java-started/"/>
+      <url>/breeze-blog/2020/05/01/java/introduction/java-started/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>最害怕的东西，最应该去突破。</p></blockquote><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>之前博主在<a href="http://www.cnblogs.com/mfrank/" target="_blank" rel="noopener">博客园</a>已经陆续发了几十篇文章，但总体并没有一个很好的串联，在内容编排上也存在许多问题，因此特地将之前的文章做一个整理。</p><p>一是将原有文章进行润色，让表达更加生动清晰，二是尽可能的将各个知识点连接成线，整理出自己的一套体系，并剔除其中的错误。</p><p>本系列文章不会鼓吹Java怎么怎么好，也不打算尝试怂恿那些在Java边缘徘徊的人来学习Java，只想根据自己的学习经验来给那些想要学习Java却不得其法的人提供一点自己的经验和看法。</p><p><code>Java 入门篇</code> 主要为0基础的人准备的，主要包括环境搭建、IDE设置和使用等方面的介绍，最后会以一个简单的程序结束本篇。通过本篇的学习，你可以掌握以下内容：</p><ul><li>如何搭建 Java 开发环境</li><li>如何使用 IDEA 进行开发</li><li>完成简单的 Java 代码</li></ul><h2 id="编程的世界观"><a href="#编程的世界观" class="headerlink" title="编程的世界观"></a>编程的世界观</h2><p>编程写代码其实跟玩游戏很相似，不断学习，不断提升，然后写代码来完成各种工作，就跟打怪升级，赚钱买装备，最终打倒BOSS是一样的。</p><p>每一款好的游戏都有一个较为统一完整的世界观，也会有一个统一的背景设定，你需要先接受和理解这个设定的背景，然后慢慢了解这个游戏的完整世界观，这样才能真正融入这个游戏。</p><p>比如说，<code>《剑网3》</code>的世界观设计一直遵循“纯武侠，真江湖”设计，背景设定便是唐宋时期，武林纷争，各大门派先后崛起，而你出身草芥，通过自己的努力，不断完成各种新手任务来提升等级，然后加入门派，再通过不断升级武器装备、完成各种副本来提升自我。</p><p>又比如<code>《饥荒》</code>这款游戏，是关于一名科学家被恶魔传送到了异世界荒野的故事，游戏的主题是生存，所以你的目标是尽可能的利用各种资源来存活更长时间，同时要抵御各种外来威胁来保证自己的安全。</p><p>如果把编程开发也比作游戏的话，它更像是《我的世界》这样的自由度很高的沙盒游戏。有的人会将《我的世界》玩成一款生存游戏，享受被僵尸追杀的快感，有人会将它玩成一款建筑游戏，打造属于自己的王国。带着不同的目的人，会有完全不同的游戏体验。</p><p>编程也是如此，在编程的世界里，你拥有的是一个万能工厂，而你是一位工程师，在这里你可以生产出任何产品，汽车、轮船、火箭，如果你足够厉害，甚至可以创造一个新的世界，所有你需要做的，便是给出合格的设计图，接下来的事情，交给这个<code>万能工厂</code>就好了。</p><p>每个人拥有这个<code>万能工厂</code>的人都有着不同的目的，有的人只是为了参观，有的人是为了制作出性能强悍的跑车，有的人是为了制作自己用的小玩具，而有的人只是为了用它来谋生。不同的目的就会有完全不同的前进方向，也会有完全不同的体验，有的人会觉得枯燥，有的人会觉得无聊，而有的人却会感觉激情四射，爱不释手。如果你能真正体会到其中的乐趣，那么你一定会爱上这个工厂。</p><p>但做出一张好的<code>设计图</code>并不是一件简单的事情，所以你需要不断的学习它的规范，设计出符合规范的<code>设计图</code>，才能使用这个<code>万能工厂</code>正确生产出你想要的产品。</p><p>等到你真正掌握了这个规范，就会发现，只满足于正确性还远远不够，于是渐渐的会开始追求效率和美感。为了提高设计效率，前辈们已经总结出很多种<code>设计模式</code>，适用于不同的应用场景，掌握了它们，在设计产品的时候便能更加随心所欲。</p><p>而关于编程美学，也是一门用经验堆积起来的学问。毕竟，作为工程师的我们，需要与其他工程师不断交流切磋，我们会观摩欣赏别人的<code>设计图</code>，也会把自己的<code>设计图</code>和别人探讨。所以<code>设计图</code>不仅仅是为了给这个万能工厂来运转，也是为了阅读。</p><p>当然，这都是后话了。</p><h2 id="Java编程的世界观"><a href="#Java编程的世界观" class="headerlink" title="Java编程的世界观"></a>Java编程的世界观</h2><p><code>Java</code> 是一门<code>高级编程语言</code>，所谓的高级，是相对于汇编等<code>机器语言</code>而言的，有更高层次的抽象，更加接近自然语言和数学公式，基本脱离了机器的硬件系统。</p><p>前面说到，每种编程语言都是一个<code>万能工厂</code>，<code>Java</code> 也有一个<code>万能工厂</code>。不同语言代表的不同工厂有着各自的擅长领域。</p><p>目前来说，<code>Java</code> 的主流应用领域便是 <code>Web/APP后端开发</code> 、<code>嵌入式设备</code> 、<code>大数据</code> 、<code>安卓开发</code> ，当然，<code>Java</code> 也可以开发桌面应用程序，也可以写游戏，但那些并不是 <code>Java</code> 擅长的领域。就像你可以用菜刀砍树，用斧头切菜一样，可以做，但是会有些别扭，有其他更好用的工具为什么要选择这样蹩脚的方式呢。</p><p>不要忘了你的目标，如果你是为了探索和享受其中的乐趣，那可以尽管去做。如果是为了完成某项功能，那请别忘了，这些工厂都只是一个工具而已，你的最终目的是实现你的要的功能。</p><blockquote><p>吾生也有涯，而知也无涯。以有涯随无涯，殆已！</p></blockquote><p>简单来说，不管黑猫白猫，能抓住耗子的猫就是好猫。</p><p>所以对待各种编程语言，首先要保持理智和克制，他们都只是一个工具，通常来说，我们的目的是为了解决问题，不要陷入对某种语言的盲目崇拜的陷阱里，脱离场景而进行语言之间的对比是毫无意义的。</p><p><code>Java</code> 有很多开发方向，本系列文章将主要以 <code>JavaWeb</code> 开发为目标进行探索，利用 <code>Java</code> 这个大工厂来开发网站后端应用，为我们的前台页面提供强劲稳定的功能支持。</p><p>相对于桌面开发而言，<code>JavaWeb</code> 开发更多的时候开发出的产品是默默的在后台工作的，需要通过前台 <code>html</code> 页面或者 <code>手机app</code>，亦或是 <code>桌面app</code> 才能进行间接的交互。</p><p>比如你打开淘宝，看到的那些页面架构和好看的图片大都是前端和UI的功劳，而你看到的那些文字和数字内容，大都是后端的数据驱动的成果。（当然，现在可能更多的功劳又要归功于基于大数据的推荐系统了）</p><p>但不要因此而觉得 <code>Java</code> 后端开发很无聊，其实一个网站的后端就像一个程序的大脑，绝大部分的数据逻辑处理是由后端完成的，不仅要负责对数据进行处理，还需要跟数据库，各种消息中间件打交道，利用各种算法来实现特定的功能。</p><p>前端则负责展示处理后的结果，并做出相应的响应，是一个应用的门面。前端侧重展示和交互，后端侧重程序的逻辑，都是为了提供更好的用户体验，只是着力点不一样而已。</p><p><code>Java</code> 这个大工厂能量无穷，想要完全掌控它的妙用需要一段较长的修炼时间，毕竟想要设计一张足够精巧的设计图纸并不是一件简单的事情，所以需要不断的学习。</p><p>这个过程难免会遇到挫折和困难，其中很多坑对于新手而言是致命的，最简单的比如环境安装，很多人的兴趣就是夭折在环境的折腾上。其实很多坑，早有无数人踩过，也有很多人在网上分享过相关的解决办法，所以当你遇到问题的时候，可以先上百度找找，你要相信一定有人遇到过同样的问题，如果没找到，想想换个姿势搜索。</p><p>当然也许苦苦搜寻之后，还是无法解决你的问题，这时候，来自共同学习的小伙伴的支持就显得弥足珍贵了，为此，博主创建了一个QQ群【529253292】，这里也许可以找到你想要的答案。</p><p><code>Java</code> 的学习深造过程，就像是升级打怪过关卡，每个知识点都有些小boss，把它们打倒后便能获得相应的经验值，可以提升你的等级，但是随着你的等级的提升，这些小怪小boss对你的修炼的帮助已经聊胜于无了，于是你需要进行更艰难的修炼，去挑战更厉害的boss。</p><h2 id="起航"><a href="#起航" class="headerlink" title="起航"></a>起航</h2><p>在这个世界里，自由度很大，大到也许会让刚接触的你迷失方向，不知所措。所以本系列文章将会提供给你一条前往 <code>JavaWeb</code> 开发的修炼道路，虽然并不一定是最优路线，但至少总体方向不会错，如果你刚好想往这个方向发展，那么本系列文章将会给你提供一些帮助。注意，本系列文章主张的是夯实基础，先修炼内功，然后再修炼外功，所以如果你想要的是捷径，想要知道如何在一两个月之内找到工作，那么这个系列文章可能不太适合你。</p><p>当你的经验累积到一定的值时，就能获得相应的头衔，在 <code>JavaWeb</code> 的发展中主要有两条升级路线，一条是技术路线，一条是管理路线，大致就像这样:</p><p><img src="https://i.loli.net/2020/05/02/SkyFbiuZjdQTOaW.png" alt="java-started-1.png"></p><p>两条路线的升级加点方式不太一样，但是都是当技术积累到一定程度后才能选择不同的升级路线。</p><p>所以，年轻的勇士，不要犹豫了，拿起你的桃木剑，在 <code>Java</code> 这个世界探索出自己的道路吧！</p><p><img src="https://i.loli.net/2020/05/02/AfHOY5RXge9tlVo.png" alt="微信公众号"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java入门 </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
       
     </entry>
     

@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-01T14:06:33.244Z</updated>
+  <updated>2020-05-01T16:25:20.104Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/05/01/hello-world/"/>
-    <id>http://yoursite.com/2020/05/01/hello-world/</id>
-    <published>2020-05-01T19:40:40.000Z</published>
-    <updated>2020-05-01T14:06:33.244Z</updated>
+    <title>【Java入门篇】小结</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-primer-conclusion/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-primer-conclusion/</id>
+    <published>2020-05-01T22:33:08.000Z</published>
+    <updated>2020-05-01T16:25:20.104Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,254 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;blockquote&gt;
+&lt;p&gt;只要你在，我便无所不能。 – 《进击的巨人》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】六、Java简单示例</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-simple-example/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-simple-example/</id>
+    <published>2020-05-01T22:33:07.000Z</published>
+    <updated>2020-05-01T16:25:20.104Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;人都有两面，一面天使，一面恶魔。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】五、Java 开发简介</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-introduction/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-introduction/</id>
+    <published>2020-05-01T22:33:06.000Z</published>
+    <updated>2020-05-01T16:25:20.104Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;每个人都衣冠楚楚，从来没有人会关心光芒万丈的外表下那藏在角落的，发了霉的落寞。  – 《西风》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】四、Java开发环境搭建——IDE</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-ide/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-ide/</id>
+    <published>2020-05-01T22:33:05.000Z</published>
+    <updated>2020-05-01T16:25:20.096Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;不相信自己的人 连努力的价值都没有。 –《火影忍者》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】三、Java开发环境搭建——Mac篇</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-environment-mac/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-environment-mac/</id>
+    <published>2020-05-01T22:33:04.000Z</published>
+    <updated>2020-05-01T16:25:20.088Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;人非圣贤，孰能无过？过而能改，善莫大焉。 –《左传》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;步骤说明&quot;&gt;&lt;a href=&quot;#步骤说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】二、Java开发环境搭建——Windows篇</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-environment-windows/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-environment-windows/</id>
+    <published>2020-05-01T22:33:03.000Z</published>
+    <updated>2020-05-01T16:25:20.096Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;你为了你的正义，我为了我的正义。 – 《火影忍者》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、安装JDK&quot;&gt;&lt;a href=&quot;#一、安装JDK&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】一、Java开发环境搭建——概念说明</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-environment/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-environment/</id>
+    <published>2020-05-01T22:33:02.000Z</published>
+    <updated>2020-05-01T16:25:20.096Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;如果不能忠于自己的心，胜负又有什么价值呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java入门篇】起航</title>
+    <link href="http://yoursite.com/2020/05/01/java/introduction/java-started/"/>
+    <id>http://yoursite.com/2020/05/01/java/introduction/java-started/</id>
+    <published>2020-05-01T22:33:01.000Z</published>
+    <updated>2020-05-01T16:25:20.104Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;最害怕的东西，最应该去突破。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;初衷&quot;&gt;&lt;a href=&quot;#初衷&quot; class=&quot;headerlink&quot; title=&quot;初衷&quot;&gt;&lt;/a&gt;初衷&lt;/h2&gt;&lt;p&gt;之前博主在&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+    
+    
+      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
     
   </entry>
   

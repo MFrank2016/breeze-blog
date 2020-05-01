@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, 生活,编程,阅读,音乐,电影">
+    <meta name="keywords" content="标签: 环境搭建, 生活,编程,阅读,音乐,电影">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>分类 | 弗兰克的猫</title>
+    <title>标签: 环境搭建 | 弗兰克的猫</title>
     <link rel="icon" type="image/png" href="/breeze-blog/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/breeze-blog/libs/awesome/css/all.css">
@@ -287,91 +287,184 @@
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
             </div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/breeze-blog/categories/programming/" title="编程: 8">
+                <a href="/breeze-blog/tags/Java%E5%85%A5%E9%97%A8/" title="Java入门: 8">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">编程
+                            data-tagname="Java入门" style="background-color: #F9EBEA;">Java入门
                         <span class="tag-length">8</span>
                     </span>
                 </a>
                 
+                
+                <a href="/breeze-blog/tags/Java/" title="Java: 8">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Java" style="background-color: #F5EEF8;">Java
+                        <span class="tag-length">8</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/breeze-blog/tags/environment-building/" title="环境搭建: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="环境搭建" style="background-color: #D5F5E3;">环境搭建
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
     </div>
 </div>
 
-
-    
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/breeze-blog/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
     
 
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"编程","max":16}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [8],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
-
-    
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Java入门, Java, 环境搭建" data-aos="fade-up">
+                <div class="card">
+                    <a href="/breeze-blog/2020/05/01/java/introduction/java-ide/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/breeze-blog/medias/featureimages/7.jpg" class="responsive-img" alt="【Java入门篇】四、Java开发环境搭建——IDE">
+                            
+                            <span class="card-title">【Java入门篇】四、Java开发环境搭建——IDE</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/breeze-blog/categories/programming/" class="post-category">
+                                编程
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Java入门, Java, 环境搭建" data-aos="fade-up">
+                <div class="card">
+                    <a href="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/breeze-blog/medias/featureimages/11.jpg" class="responsive-img" alt="【Java入门篇】三、Java开发环境搭建——Mac篇">
+                            
+                            <span class="card-title">【Java入门篇】三、Java开发环境搭建——Mac篇</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/breeze-blog/categories/programming/" class="post-category">
+                                编程
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Java入门, Java, 环境搭建" data-aos="fade-up">
+                <div class="card">
+                    <a href="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/breeze-blog/medias/featureimages/4.jpg" class="responsive-img" alt="【Java入门篇】二、Java开发环境搭建——Windows篇">
+                            
+                            <span class="card-title">【Java入门篇】二、Java开发环境搭建——Windows篇</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/breeze-blog/categories/programming/" class="post-category">
+                                编程
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Java入门, Java, 环境搭建" data-aos="fade-up">
+                <div class="card">
+                    <a href="/breeze-blog/2020/05/01/java/introduction/java-environment/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/breeze-blog/medias/featureimages/17.jpg" class="responsive-img" alt="【Java入门篇】一、Java开发环境搭建——概念说明">
+                            
+                            <span class="card-title">【Java入门篇】一、Java开发环境搭建——概念说明</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/breeze-blog/categories/programming/" class="post-category">
+                                编程
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
