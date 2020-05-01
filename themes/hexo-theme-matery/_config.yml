@@ -520,7 +520,7 @@ subtitle:
 
 # 手机二级菜单.
 navMenu:
-  mleft: false # 二级侧栏子菜单是否对齐左边
+  mleft: true # 二级侧栏子菜单是否对齐左边
   bgColor: " " # 二级侧栏子菜单背景颜色,留空即为全局背景色
 
 # 网页预加载.
