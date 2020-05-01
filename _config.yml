@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 # highlight:
@@ -74,7 +74,18 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  编程: programming
+  生活: life
+  阅读: reading
+  随想: thoughts
+  理财: finance
 tag_map:
+  方法论: methodology
+  实用: practical
+  理论: theoretical
+  基金投资: found
+  敏捷开发: agile-development
+  环境搭建: environment-building
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
