@@ -1,35 +1,18 @@
-# 指定语言环境
+sudo: false
 language: node_js
-# 指定node_js版本
-node_js: 
-  - 12.16.3
-# 指定缓存模块，可选。缓存可加快编译速度。
-cache:
-  directories:
-    - node_modules
-
-# 指定博客源码分支，因人而异。hexo博客源码托管在独立repo则不用设置此项
+node_js:
+  - 12
+cache: npm
 branches:
   only:
-    - master 
-
-before_install:
-  - npm install -g hexo-cli
-  - export HEXO_DEPLOYER_REPO=https://$GH_TOKEN@github.com/MFrank2016/breeze-blog.git
-
-# Start: Build Lifecycle
-install:
-  - npm install
-  - npm install hexo-deployer-git --save
- 
-# 执行清缓存，生成网页操作
+    - master # build master branch only
 script:
-  - hexo clean
-  - hexo generate
-  - hexo deploy
-
-# 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
-after_script:
-  - git config user.name "mfrank"
-  - git config user.email "337603640@qq.com"
-# End: Build LifeCycle
+  - hexo generate # generate static files
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  local-dir: public
