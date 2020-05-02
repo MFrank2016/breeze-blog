@@ -3,11 +3,8 @@ title: 【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（
 tags:
   - 环境搭建
   - Hexo
-  - 博客
   - github pages
   - travis ci
-  - hexo-theme-matery
-  - hexo-theme-next
 categories:
   - 编程
   - 生活
