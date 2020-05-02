@@ -408,14 +408,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-01
+                    2020-05-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    393
+                    431
                 </div>
                 
 
@@ -441,47 +441,56 @@
 <p>你为了你的正义，我为了我的正义。 – 《火影忍者》</p>
 </blockquote>
 <h2 id="一、安装JDK"><a href="#一、安装JDK" class="headerlink" title="一、安装JDK"></a>一、安装JDK</h2><p>官网下载链接：<a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/1-jdk-windows.png" class="" title="jdk-windows">
-
+<p><img src="https://i.loli.net/2020/05/02/CvASgTp3BQFGlks.png" alt="1-jdk-windows.png"></p>
 <h2 id="二、配置环境变量"><a href="#二、配置环境变量" class="headerlink" title="二、配置环境变量"></a>二、配置环境变量</h2><p>需要配置以下几个环境变量：</p>
-<p>JAVA_HOME     配置JDK安装路径</p>
-<p>PATH                  配置JDK命令文件的位置</p>
-<p>CLASSPATH      配置类库文件的位置</p>
-<h3 id="1、我的电脑（右键）–-gt-属性–-gt-高级系统设置"><a href="#1、我的电脑（右键）–-gt-属性–-gt-高级系统设置" class="headerlink" title="1、我的电脑（右键）–&gt;属性–&gt;高级系统设置"></a>1、我的电脑（右键）–&gt;属性–&gt;高级系统设置</h3><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/2-jdk-windows.png" class="" title="jdk-windows">
-
-<h3 id="2、环境变量–-gt-新建"><a href="#2、环境变量–-gt-新建" class="headerlink" title="2、环境变量–&gt;新建"></a>2、环境变量–&gt;新建</h3><img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/3-jdk-windows.png" class="" title="jdk-windows">
-
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/4-jdk-windows.png" class="" title="jdk-windows">
-
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/5-jdk-windows.png" class="" title="jdk-windows">)
-
-<p>(1)新建-&gt;变量名”JAVA_HOME”，变量值”C:/Java/jdk1.8.0_144”（即JDK的安装路径） </p>
+<table>
+<thead>
+<tr>
+<th>环境变量名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>JAVA_HOME</td>
+<td>配置JDK安装路径</td>
+</tr>
+<tr>
+<td>PATH</td>
+<td>配置JDK命令文件的位置</td>
+</tr>
+<tr>
+<td>CLASSPATH</td>
+<td>配置类库文件的位置｜</td>
+</tr>
+</tbody></table>
+<h3 id="1、我的电脑（右键）–-gt-属性–-gt-高级系统设置"><a href="#1、我的电脑（右键）–-gt-属性–-gt-高级系统设置" class="headerlink" title="1、我的电脑（右键）–&gt;属性–&gt;高级系统设置"></a>1、我的电脑（右键）–&gt;属性–&gt;高级系统设置</h3><p><img src="https://i.loli.net/2020/05/02/KkW2HEcewYmfyLC.png" alt="2-jdk-windows.png"></p>
+<h3 id="2、环境变量–-gt-新建"><a href="#2、环境变量–-gt-新建" class="headerlink" title="2、环境变量–&gt;新建"></a>2、环境变量–&gt;新建</h3><p><img src="https://i.loli.net/2020/05/02/Iybmol7AfZ2JjPV.png" alt="3-jdk-windows.png"></p>
+<p><img src="https://i.loli.net/2020/05/02/iaUDGuIA2dFVLsb.png" alt="4-jdk-windows.png"></p>
+<p><img src="https://i.loli.net/2020/05/02/Fm6WAQtRjKyxPv3.png" alt="5-jdk-windows.png"></p>
+<p>(1)新建-&gt;变量名”JAVA_HOME”，变量值”C:/Java/jdk1.8.0_144”（即JDK的安装路径），在此，我安装的是 <code>java8</code> 版本，如果选择其它版本，设置对应的路径和名称即可。 </p>
 <p>(2)编辑-&gt;变量名”Path”，在原变量值的最后面加上“;%JAVA_HOME%/bin;%JAVA_HOME%/jre/bin” </p>
 <p>(3)新建-&gt;变量名“CLASSPATH”,变量值“.;%JAVA_HOME%/lib;%JAVA_HOME%/lib/dt.jar;%JAVA_HOME%/lib/tools.jar”</p>
-<h3 id="3、确认环境配置是否正确"><a href="#3、确认环境配置是否正确" class="headerlink" title="3、确认环境配置是否正确"></a>3、确认环境配置是否正确</h3><p>在控制台分别输入java，javac，java -version 命令，出现如下所示的JDK的编译器信息，包括修改命令的语法和参数选项等信息。</p>
-<p>java命令：</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/6-jdk-windows.png" class="" title="jdk-windows">
-
-<p>javac命令：</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/7-jdk-windows.png" class="" title="jdk-windows">
-
-<p>java -version命令：</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/8-jdk-windows.png" class="" title="jdk-windows">
-
+<h3 id="3、确认环境配置是否正确"><a href="#3、确认环境配置是否正确" class="headerlink" title="3、确认环境配置是否正确"></a>3、确认环境配置是否正确</h3><p>在控制台分别输入 <code>java</code>，<code>javac</code>，<code>java -version</code> 命令，出现如下所示的 <code>JDK</code> 的编译器信息，包括修改命令的语法和参数选项等信息。</p>
+<p><code>java</code> 命令：</p>
+<p><img src="https://i.loli.net/2020/05/02/4rDZIYn6yL5lGEp.png" alt="6-jdk-windows.png"></p>
+<p><code>javac</code> 命令：</p>
+<p><img src="https://i.loli.net/2020/05/02/WagrjY8X9AcwPNI.png" alt="7-jdk-windows.png"></p>
+<p><code>java -version</code> 命令：</p>
+<p><img src="https://i.loli.net/2020/05/02/wBrWpu7P8KIA1c6.png" alt="8-jdk-windows.png"></p>
 <h3 id="4、在控制台下验证第一个java程序："><a href="#4、在控制台下验证第一个java程序：" class="headerlink" title="4、在控制台下验证第一个java程序："></a>4、在控制台下验证第一个java程序：</h3><p>右键–》新建–》文本文档</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p>用记事本编写好，点击“保存”，并保存在桌面后，先在控制台中进入桌面的目录。</p>
 <pre class=" language-bash"><code class="language-bash">C:
 <span class="token function">cd</span> /Users/<span class="token punctuation">[</span>用户名<span class="token punctuation">]</span>/Desktop</code></pre>
-<p>上面的[用户名]改成你的计算机用户名即可，不清楚的话打开我的电脑，进C盘目录：C:/Users 找一下。</p>
-<p>输入javac Test.java和java Test命令，即可运行程序（打印出结果“Hello Java”）。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-windows/9-jdk-windows.png" class="" title="jdk-windows">
-
-<p>至此，Java开发环境搭建成功。</p>
+<p>上面的[用户名]改成你的计算机用户名即可，不清楚的话打开我的电脑，进C盘目录：<code>C:/Users</code> 找一下。</p>
+<p>输入 <code>javac Test.java</code> 和 <code>java Test</code> 命令，即可运行程序（打印出结果“Hello Java”）。</p>
+<p><img src="https://i.loli.net/2020/05/02/InRJXZb54T1veuc.png" alt="9-jdk-windows.png"></p>
+<p>至此，<code>Java</code> 开发环境搭建成功。</p>
+<p><img src="https://i.loli.net/2020/05/02/AfHOY5RXge9tlVo.png" alt="微信公众号"></p>
 
             </div>
             <hr/>
@@ -497,7 +506,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com" rel="external nofollow noreferrer">清风</a>
+                    <a href="https://mfrank2016.github.io" rel="external nofollow noreferrer">清风</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -507,7 +516,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/breeze-blog/2020/05/01/java/introduction/java-environment-windows/">http://yoursite.com/breeze-blog/2020/05/01/java/introduction/java-environment-windows/</a>
+                    <a href="https://mfrank2016.github.io/breeze-blog/2020/05/01/java/introduction/java-environment-windows/">https://mfrank2016.github.io/breeze-blog/2020/05/01/java/introduction/java-environment-windows/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -520,7 +529,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://yoursite.com" target="_blank">清风</a>
+                    <a href="https://mfrank2016.github.io" target="_blank">清风</a>
                     !
                 </span>
             </div>
@@ -1005,10 +1014,9 @@
 人非圣贤，孰能无过？过而能改，善莫大焉。 –《左传》
 
 步骤说明主要分为以下几个步骤：
-1.到Oracle官网下载JDK1.8安装包。
+1.到 Oracle 官网下载 JDK 安装包。(我在这里选择的是 JDK1.8，也可以选择其它版本)
 2.打开获取到的安装包按步骤安装到系统上。
-3.配置系统的环境变量。
-4.验证JDK1.8是否安装成功
+3
                         
                     </div>
                     <div class="publish-info">
@@ -1068,9 +1076,9 @@
                             
 如果不能忠于自己的心，胜负又有什么价值呢？
 
-说明前面说到Java也有一个大工厂，可以让你随心所欲的创建想要创建的事物，但是想要使用这个工厂，还得先部署这个工厂，它就是JDK。
+说明前面说到 Java 也有一个大工厂，可以让你随心所欲的创建想要创建的事物，但是想要使用这个工厂，还得先部署这个工厂，它就是 JDK 。
 在此之前，先介绍几个概念：JVM、JRE、JDK。
-JVM（
+
                         
                     </div>
                     <div class="publish-info">
@@ -1295,15 +1303,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     }
 
     
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
 </style>
 <div class="">
     
@@ -1319,7 +1318,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
                    order='random'
                    preload='auto'
                    volume='0.5'
-                   list-folded='false'
+                   list-folded='true'
         >
         </meting-js>
     </div>
@@ -1338,7 +1337,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.3k</span>&nbsp;字
+                class="white-color">8.5k</span>&nbsp;字
             
             
             

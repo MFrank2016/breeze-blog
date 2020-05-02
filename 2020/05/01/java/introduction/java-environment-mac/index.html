@@ -408,21 +408,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-01
+                    2020-05-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    763
+                    809
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
 
@@ -441,65 +441,50 @@
 <p>人非圣贤，孰能无过？过而能改，善莫大焉。 –《左传》</p>
 </blockquote>
 <h2 id="步骤说明"><a href="#步骤说明" class="headerlink" title="步骤说明"></a>步骤说明</h2><p>主要分为以下几个步骤：</p>
-<p>1.到Oracle官网下载JDK1.8安装包。</p>
+<p>1.到 <code>Oracle</code> 官网下载 <code>JDK</code> 安装包。(我在这里选择的是 <code>JDK1.8</code>，也可以选择其它版本)</p>
 <p>2.打开获取到的安装包按步骤安装到系统上。</p>
 <p>3.配置系统的环境变量。</p>
-<p>4.验证JDK1.8是否安装成功。</p>
-<p>【由于电脑上已经安装过了jdk8，所以偷懒把别人的文章搬过来了，<a href="https://blog.csdn.net/deliciousion/article/details/78046007" target="_blank" rel="noopener">原文链接</a>】</p>
-<h2 id="一、下载JDK8"><a href="#一、下载JDK8" class="headerlink" title="一、下载JDK8"></a>一、下载JDK8</h2><p>通过下面Oracle官网找到对应的JDK1.8安装包</p>
+<p>4.验证 <code>JDK</code> 是否安装成功。</p>
+<p>【由于电脑上已经安装过了 <code>JDK1.8</code>，所以偷懒把别人的文章搬过来了，<a href="https://blog.csdn.net/deliciousion/article/details/78046007" target="_blank" rel="noopener">原文链接</a>】</p>
+<h2 id="一、下载JDK8"><a href="#一、下载JDK8" class="headerlink" title="一、下载JDK8"></a>一、下载JDK8</h2><p>通过下面 <code>Oracle</code> 官网找到对应的 <code>JDK1.8</code> 安装包</p>
 <p><a href="https://www.oracle.com/index.html" target="_blank" rel="noopener">https://www.oracle.com/index.html</a></p>
-<p>打开后如下所示，Oracle主页内容经常变动，读者打开后很有可能不一样。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/1-jdk-mac.png" class="" title="jdk-mac">
-
+<p>打开后如下所示，<code>Oracle</code> 主页内容经常变动，读者打开后很有可能不一样。</p>
+<p><img src="https://i.loli.net/2020/05/02/munYUqTkJg5IxDR.png" alt="1-jdk-mac.png"></p>
 <p>拉到页面底部，找到“Download Java for Developers”，如下红框所示。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/2-jdk-mac.png" class="" title="jdk-mac">
-
-<p>点开链接后，如下图所示，再点击红框位置，只下载JDK1.8，红框右边的链接是JDK1.8加上NetBeans，一个挺好用的JAVA IDE（集成化开发环境），有需要的可以下载。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/3-jdk-mac.png" class="" title="jdk-mac">
-
-<p>进入页面后第一步，点击“Accept License Agreement”同意许可证协议。第二步选择JDK对应的操作系统。本次选择“MAC OS X”，最后把相应的安装包下载到本地。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/4-jdk-mac.png" class="" title="jdk-mac">
-
-<h2 id="二、安装JDK"><a href="#二、安装JDK" class="headerlink" title="二、安装JDK"></a>二、安装JDK</h2><p>下载完成后，我们得到一个dmg的安装包，如下图所示，名称为 jdk-8u144-macosx-x64.dmg ，表示这是Java 8版本号为144的JDK安装包。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/5-jdk-mac.png" class="" title="jdk-mac">
-
-<p>双击dmg安装包，打开如下图所示窗口。按照红框的提示，便可轻松完成安装。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/6-jdk-mac.png" class="" title="jdk-mac">
-
-<p>再双击中间的pkg文件，开始安装，如下图所示。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/7-jdk-mac.png" class="" title="jdk-mac">
-
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/9-jdk-mac.png" class="" title="jdk-mac">
-
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/10-jdk-mac.png" class="" title="jdk-mac">
-
-<h2 id="三、配置系统的环境变量"><a href="#三、配置系统的环境变量" class="headerlink" title="三、配置系统的环境变量"></a>三、配置系统的环境变量</h2><p>上一步骤，实标上，我们只是把JDK1.8的文件复制到操作系统上。但是我们如果要在terminal终端上使JAVA命令，还有让其实应用知道JDK1.8环境的存在，那我们还需要配置系统的环境变量。</p>
-<p>首先我们得知道JDK目录安装在哪里，按照下面的路径我们可以找到JDK的主目录，如下图所示。这里有两个目录是因为本机较早前安装过早期版本的JDK1.8。</p>
-<p>/Library/Java/JavaVirtualMachines</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/11-jdk-mac.png" class="" title="jdk-mac">
-
-
-<p>由于MAC文件系统结构，与WINDOWS有所不一样，所以jdk的真实主目录如下</p>
-<p>/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home</p>
-<p>打开terminal终端，默认打开在自身home家目录下，也可通过cd命令直接跳到家目录。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/12-jdk-mac.png" class="" title="jdk-mac">
-
-<p>通过 vim .bash_profile 命令打开启动文件，修改内容</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/13-jdk-mac.png" class="" title="jdk-mac">
-
-<p>进入vim，按I进入编辑状态。添加如下内容，如下图所示。再按ESC，输入“:wq”保存退出。配置系统环境变量结束。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/14-jdk-mac.png" class="" title="jdk-mac">
-
+<p><img src="https://i.loli.net/2020/05/02/GOvJdf7zLWrTCEb.png" alt="2-jdk-mac.png"></p>
+<p>点开链接后，如下图所示，再点击红框位置，只下载 <code>JDK1.8</code> ，红框右边的链接是 <code>JDK1.8</code> 加上 <code>NetBeans</code> ，一个挺好用的 <code>JAVA IDE</code>（集成化开发环境），有需要的可以下载。</p>
+<p><img src="https://i.loli.net/2020/05/02/FakO2WjeMR1hi79.png" alt="3-jdk-mac.png"></p>
+<p>进入页面后第一步，点击“Accept License Agreement”同意许可证协议。第二步选择 <code>JDK</code> 对应的操作系统。本次选择“MAC OS X”，最后把相应的安装包下载到本地。</p>
+<p><img src="https://i.loli.net/2020/05/02/I3XBT1vUJQGHDcK.png" alt="4-jdk-mac.png"></p>
+<h2 id="二、安装JDK"><a href="#二、安装JDK" class="headerlink" title="二、安装JDK"></a>二、安装JDK</h2><p>下载完成后，我们得到一个dmg的安装包，如下图所示，名称为 <code>jdk-8u144-macosx-x64.dmg</code> ，表示这是 <code>Java 8</code> 版本号为 <code>144</code> 的 <code>JDK</code>安装包，如果选择的是其它版本，名称也会有所不同。</p>
+<p><img src="https://i.loli.net/2020/05/02/PSbdcZGVfY1n4Oz.png" alt="5-jdk-mac.png"></p>
+<p>双击 <code>dmg</code> 安装包，打开如下图所示窗口。按照红框的提示，便可轻松完成安装。</p>
+<p><img src="https://i.loli.net/2020/05/02/bDiVGkgKOrQJS5w.png" alt="6-jdk-mac.png"></p>
+<p>再双击中间的 <code>pkg</code> 文件，开始安装，如下图所示。</p>
+<p><img src="https://i.loli.net/2020/05/02/kMa9bSmKOY2seFD.png" alt="7-jdk-mac.png"></p>
+<p><img src="https://i.loli.net/2020/05/02/ICbJmudG73f52lx.png" alt="9-jdk-mac.png"></p>
+<p><img src="https://i.loli.net/2020/05/02/e92Dx1XPzBI5WVO.png" alt="10-jdk-mac.png"></p>
+<h2 id="三、配置系统的环境变量"><a href="#三、配置系统的环境变量" class="headerlink" title="三、配置系统的环境变量"></a>三、配置系统的环境变量</h2><p>上一步骤，实标上，我们只是把 <code>JDK1.8</code> 的文件复制到操作系统上。但是我们如果要在 <code>terminal</code> 终端上使用 <code>JAVA</code> 命令，还需要让其它应用知道 <code>JDK1.8</code> 环境的存在，那我们还需要配置系统的环境变量。</p>
+<p>首先我们得知道 <code>JDK</code> 目录安装在哪里，按照下面的路径我们可以找到 <code>JDK</code> 的主目录，如下图所示。这里有两个目录是因为本机较早前安装过早期版本的 <code>JDK1.8</code>。</p>
+<pre class=" language-bash"><code class="language-bash">/Library/Java/JavaVirtualMachines</code></pre>
+<p><img src="https://i.loli.net/2020/05/02/ewjVCx6Wdiz7hE5.png" alt="11-jdk-mac.png"></p>
+<p>由于 <code>MAC</code> 文件系统结构，与 <code>WINDOWS</code> 有所不一样，所以 <code>JDK</code>的真实主目录如下</p>
+<pre class=" language-bash"><code class="language-bash">/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home</code></pre>
+<p>打开 <code>terminal</code> 终端，默认打开在自身 <code>home</code> 目录下，也可通过 <code>cd</code> 命令直接跳到主目录。</p>
+<p><img src="https://i.loli.net/2020/05/02/bFOD8ViUStJYdBW.png" alt="12-jdk-mac.png"></p>
+<p>通过 <code>vim .bash_profile</code> 命令打开启动文件，修改内容</p>
+<p><img src="https://i.loli.net/2020/05/02/u51VTvULm6HtJcn.png" alt="13-jdk-mac.png"></p>
+<p>进入 <code>vim</code>，按 <code>i</code> 键进入编辑状态。添加如下内容，如下图所示。再按 <code>ESC</code> 键，输入“:wq”保存退出。配置系统环境变量结束。</p>
+<p><img src="https://i.loli.net/2020/05/02/93vEFplMf4Vjg8O.png" alt="14-jdk-mac.png"></p>
 <p>添加如下内容：</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">export</span> JAVA_HOME<span class="token operator">=</span>/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home</code></pre>
-<p>注意将jdk1.8.0_45这里改为你下载的JDK版本，不清楚的话，到/Library/Java/JavaVirtualMachines/这个目录下找找。</p>
-<h2 id="四、验证JDK1-8是否安装成功。"><a href="#四、验证JDK1-8是否安装成功。" class="headerlink" title="四、验证JDK1.8是否安装成功。"></a>四、验证JDK1.8是否安装成功。</h2><p>在终端输入java,有如下画面，证明配置成功</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/15-jdk-mac.png" class="" title="jdk-mac">
-
-<p>或输入java -version，有如下版本信息。</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-environment-mac/16-jdk-mac.png" class="" title="jdk-mac">
-
-<p>至此，整个安装JDK1.8过程结束</p>
+<p>注意将 <code>jdk1.8.0_45</code> 这里改为你下载的 <code>JDK</code> 版本，不清楚的话，到 <code>/Library/Java/JavaVirtualMachines/</code> 这个目录下找找。</p>
+<h2 id="四、验证JDK1-8是否安装成功。"><a href="#四、验证JDK1-8是否安装成功。" class="headerlink" title="四、验证JDK1.8是否安装成功。"></a>四、验证JDK1.8是否安装成功。</h2><p>在终端输入 <code>java</code>,有如下画面，证明配置成功</p>
+<p><img src="https://i.loli.net/2020/05/02/S3X7JwZfONlvqsM.png" alt="15-jdk-mac.png"></p>
+<p>或输入 <code>java -version</code>，会出现版本信息</p>
+<p><img src="https://i.loli.net/2020/05/02/zlKysIfgXDL1E4C.png" alt="16-jdk-mac.png"></p>
+<p>至此，整个安装 <code>JDK</code> 过程结束。</p>
+<p><img src="https://i.loli.net/2020/05/02/AfHOY5RXge9tlVo.png" alt="微信公众号"></p>
 
             </div>
             <hr/>
@@ -515,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com" rel="external nofollow noreferrer">清风</a>
+                    <a href="https://mfrank2016.github.io" rel="external nofollow noreferrer">清风</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -525,7 +510,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/breeze-blog/2020/05/01/java/introduction/java-environment-mac/">http://yoursite.com/breeze-blog/2020/05/01/java/introduction/java-environment-mac/</a>
+                    <a href="https://mfrank2016.github.io/breeze-blog/2020/05/01/java/introduction/java-environment-mac/">https://mfrank2016.github.io/breeze-blog/2020/05/01/java/introduction/java-environment-mac/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -538,7 +523,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://yoursite.com" target="_blank">清风</a>
+                    <a href="https://mfrank2016.github.io" target="_blank">清风</a>
                     !
                 </span>
             </div>
@@ -1022,8 +1007,8 @@
                             
 不相信自己的人 连努力的价值都没有。 –《火影忍者》
 
-前言前面我们已经安装好了JDK，现在Java这个大型游戏已经安装在我们的电脑里了，接下来我们就要准备学习如何玩这个游戏了。
-在入门阶段，我建议选择简单模式来进行，那么一个好的IDE是
+前言前面我们已经安装好了 JDK ，现在 Java 这款大型开放式沙盒游戏已经安装在我们的电脑里了，接下来我们就要准备学习如何玩这个游戏了。
+在入门阶段，我建议选择简单模式来进行，那
                         
                     </div>
                     <div class="publish-info">
@@ -1308,15 +1293,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     }
 
     
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
 </style>
 <div class="">
     
@@ -1332,7 +1308,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
                    order='random'
                    preload='auto'
                    volume='0.5'
-                   list-folded='false'
+                   list-folded='true'
         >
         </meting-js>
     </div>
@@ -1351,7 +1327,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.3k</span>&nbsp;字
+                class="white-color">8.5k</span>&nbsp;字
             
             
             

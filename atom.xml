@@ -5,9 +5,9 @@
   <subtitle>永远年轻，永远热泪盈眶</subtitle>
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2020-05-01T16:25:20.104Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://mfrank2016.github.io/"/>
+  <updated>2020-05-02T02:42:43.351Z</updated>
+  <id>https://mfrank2016.github.io/</id>
   
   <author>
     <name>清风</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>【Java入门篇】小结</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-primer-conclusion/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-primer-conclusion/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/</id>
     <published>2020-05-01T22:33:08.000Z</published>
-    <updated>2020-05-01T16:25:20.104Z</updated>
+    <updated>2020-05-02T02:42:43.351Z</updated>
     
     <summary type="html">
     
@@ -39,21 +39,21 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】六、Java简单示例</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-simple-example/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-simple-example/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/</id>
     <published>2020-05-01T22:33:07.000Z</published>
-    <updated>2020-05-01T16:25:20.104Z</updated>
+    <updated>2020-05-02T02:42:43.351Z</updated>
     
     <summary type="html">
     
@@ -62,7 +62,7 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;人都有两面，一面天使，一面恶魔。&lt;/p&gt;
+&lt;p&gt;人都有两面，一面天使，一面恶魔&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
@@ -71,21 +71,21 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】五、Java 开发简介</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-introduction/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-introduction/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-introduction/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-introduction/</id>
     <published>2020-05-01T22:33:06.000Z</published>
-    <updated>2020-05-01T16:25:20.104Z</updated>
+    <updated>2020-05-02T02:42:43.351Z</updated>
     
     <summary type="html">
     
@@ -103,21 +103,21 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】四、Java开发环境搭建——IDE</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-ide/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-ide/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/</id>
     <published>2020-05-01T22:33:05.000Z</published>
-    <updated>2020-05-01T16:25:20.096Z</updated>
+    <updated>2020-05-02T02:42:43.347Z</updated>
     
     <summary type="html">
     
@@ -135,23 +135,23 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
-      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】三、Java开发环境搭建——Mac篇</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-environment-mac/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-environment-mac/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/</id>
     <published>2020-05-01T22:33:04.000Z</published>
-    <updated>2020-05-01T16:25:20.088Z</updated>
+    <updated>2020-05-02T02:42:43.335Z</updated>
     
     <summary type="html">
     
@@ -169,23 +169,23 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
-      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】二、Java开发环境搭建——Windows篇</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-environment-windows/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-environment-windows/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-windows/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-windows/</id>
     <published>2020-05-01T22:33:03.000Z</published>
-    <updated>2020-05-01T16:25:20.096Z</updated>
+    <updated>2020-05-02T02:42:43.343Z</updated>
     
     <summary type="html">
     
@@ -203,23 +203,23 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
-      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】一、Java开发环境搭建——概念说明</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-environment/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-environment/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/</id>
     <published>2020-05-01T22:33:02.000Z</published>
-    <updated>2020-05-01T16:25:20.096Z</updated>
+    <updated>2020-05-02T02:42:43.347Z</updated>
     
     <summary type="html">
     
@@ -230,30 +230,30 @@
           &lt;blockquote&gt;
 &lt;p&gt;如果不能忠于自己的心，胜负又有什么价值呢？&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;前面说到
         
       
     
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
-      <category term="环境搭建" scheme="http://yoursite.com/tags/environment-building/"/>
+      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
   </entry>
   
   <entry>
     <title>【Java入门篇】起航</title>
-    <link href="http://yoursite.com/2020/05/01/java/introduction/java-started/"/>
-    <id>http://yoursite.com/2020/05/01/java/introduction/java-started/</id>
+    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/"/>
+    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/</id>
     <published>2020-05-01T22:33:01.000Z</published>
-    <updated>2020-05-01T16:25:20.104Z</updated>
+    <updated>2020-05-02T02:42:43.351Z</updated>
     
     <summary type="html">
     
@@ -262,7 +262,7 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;最害怕的东西，最应该去突破。&lt;/p&gt;
+&lt;p&gt;最害怕的东西，最应该去突破&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;初衷&quot;&gt;&lt;a href=&quot;#初衷&quot; class=&quot;headerlink&quot; title=&quot;初衷&quot;&gt;&lt;/a&gt;初衷&lt;/h2&gt;&lt;p&gt;之前博主在&lt;a
         
@@ -271,12 +271,12 @@
     </summary>
     
     
-      <category term="编程" scheme="http://yoursite.com/categories/programming/"/>
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="http://yoursite.com/tags/Java%E5%85%A5%E9%97%A8/"/>
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
   </entry>
   

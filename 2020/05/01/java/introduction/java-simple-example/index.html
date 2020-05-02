@@ -404,7 +404,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-01
+                    2020-05-02
                 </div>
                 
 
@@ -434,16 +434,16 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p>人都有两面，一面天使，一面恶魔。</p>
+<p>人都有两面，一面天使，一面恶魔</p>
 </blockquote>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了统一风格，也为了增加趣味性，以后的文章都会以关卡的形式进行展示，这样也能让大家明确每一篇的目标，带着目的来阅读会更有方向感。</p>
-<p>之前已经写过了Hello World，所以这次就换一个吧，这次的小目标便是——Java简易版计算器。</p>
-<h2 id="功能说明"><a href="#功能说明" class="headerlink" title="功能说明"></a>功能说明</h2><p>第一版的Java计算器仅需要支持加法运算，用户输入两个数字，然后输出它们的和。</p>
+<p>之前已经写过了 <code>Hello World</code>，所以这次就换一个吧，这次的小目标便是——<code>Java简易版计算器</code>。</p>
+<h2 id="功能说明"><a href="#功能说明" class="headerlink" title="功能说明"></a>功能说明</h2><p>第一版的 <code>Java</code> 计算器仅需要支持加法运算，用户输入两个数字，然后输出它们的和。</p>
 <h2 id="方法预习"><a href="#方法预习" class="headerlink" title="方法预习"></a>方法预习</h2><p>如果是刚开始接触编程，也许你会毫无头绪，莫方，这是很正常的现象，因为你对于如何与计算机尤其是命令行进行交互毫无头绪。</p>
 <p>所以在开始编码前，需要先预习一些必要的知识。</p>
-<h3 id="输出信息"><a href="#输出信息" class="headerlink" title="输出信息"></a>输出信息</h3><p>先来认识一个方法 <code>System.out.println()</code>，这个方法会将你传入的信息输出到控制台中，emmm，什么是控制台？你运行程序后出现的那个黑不拉几的东西就叫做控制台，它是我们与计算机交互的一个最简单原始的方式。</p>
-<p>来试验一下，还记得如何用idea创建一个类吗？不记得的话翻看一下<a href="java-ide.md">这里</a>。</p>
-<p>这次我们继续在hello包下面创建一个类叫做PrintTest，然后添加以下方法：</p>
+<h3 id="输出信息"><a href="#输出信息" class="headerlink" title="输出信息"></a>输出信息</h3><p>先来认识一个方法 <code>System.out.println()</code>，这个方法会将你传入的信息输出到<code>控制台</code>中，emmm，什么是<code>控制台</code>？你运行程序后出现的那个黑不拉几的东西就叫做<code>控制台</code>，它是我们与计算机交互的一个最简单原始的方式。</p>
+<p>来试验一下，还记得如何用 <code>idea</code> 创建一个类吗？不记得的话翻看一下<a href="../java-ide">这里</a>。</p>
+<p>这次我们继续在 <code>hello</code> 包下面创建一个类叫做 <code>PrintTest</code> ，然后添加以下方法：</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> hello<span class="token punctuation">;</span>
 
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PrintTest</span> <span class="token punctuation">{</span>
@@ -452,11 +452,11 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p>然后我们点击运行，或者按键（<code>ctrl+shift+R</code>），就能看到下面的输出了：</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-simple-example/java-simple-example-1.png" class="" title="java-example">
-
-<p>先不要问这个System是个什么东西，只要知道这样可以输出一行信息就行了，需要注意的是这个方法默认会在末尾加一个换行符，如果想要不换行，可以试试 <code>System.out.print()</code>。</p>
+<p><img src="https://i.loli.net/2020/05/02/7tNkXUYGDI9bAo8.png" alt="java-simple-example-1.png"></p>
+<p>先不要问这个 <code>System</code> 是个什么东西，只要知道这样可以输出一行信息就行了，需要注意的是这个方法默认会在末尾加一个换行符，如果想要不换行，可以试试 <code>System.out.print()</code>。</p>
 <h3 id="输入信息"><a href="#输入信息" class="headerlink" title="输入信息"></a>输入信息</h3><p>上面已经说过如何输出信息了，现在来看看如何输入信息并进行读取。</p>
-<p>先来认识一下Scanner类，Scanner类是用来从各种输入源读取信息的，它可以从各种输入源中读取信息，最常用的当然就是控制台输入。那如何用Scanner读取控制台的输入呢？这就要用到System.in了，来看栗子，我们再新建一个InputTest类：</p>
+<p>先来认识一下 <code>Scanner</code> 类，<code>Scanner</code> 类是用来从各种输入源读取信息的，它可以从各种输入源中读取信息，最常用的当然就是控制台输入。</p>
+<p>那如何用 <code>Scanner</code> 读取控制台的输入呢？这就要用到 <code>System.in</code> 了，来看栗子，我们再新建一个 <code>InputTest</code> 类：</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">package</span> hello<span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Scanner<span class="token punctuation">;</span>
@@ -470,17 +470,16 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p>然后再运行一下，并且输入一个数字然后按回车键，这里我输入的是20：</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-simple-example/java-simple-example-2.png" class="" title="java-example">
-
+<p><img src="https://i.loli.net/2020/05/02/LlMGZuJ1C6SgvUm.png" alt="java-simple-example-2.png"></p>
 <p>如果对于具体的细节还不清楚，没有关系，先照做就好了。</p>
 <h2 id="代码编写"><a href="#代码编写" class="headerlink" title="代码编写"></a>代码编写</h2><p>那么接下来就开始设计这个最简单的计算器了，首先我们要提示用户输入一个整数，就像上面那样：</p>
 <pre class=" language-java"><code class="language-java">System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请输入一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p>然后用一个int变量来存储，什么？不知道变量是干嘛的？没事，你可以先把它当做一个盒子，用来把用户输入的信息存放进去。</p>
+<p>然后用一个 <code>int</code> 变量来存储，什么？不知道变量是干嘛的？没事，你可以先把它当做一个盒子，用来把用户输入的信息存放进去。</p>
 <pre class=" language-java"><code class="language-java">Scanner in <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">int</span> a <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>然后提示用户再输入一个整数：</p>
 <pre class=" language-java"><code class="language-java">System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"请输入另一个整数:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p>然后再用一个int变量来存储。</p>
+<p>然后再用一个 <code>int</code> 变量来存储。</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">int</span> b <span class="token operator">=</span> in<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>接下来计算两者的和，并存到第三个变量中：</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">int</span> sum <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span></code></pre>
@@ -503,10 +502,13 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p>输出如下：</p>
-<img src="/breeze-blog/2020/05/01/java/introduction/java-simple-example/java-simple-example-3.png" class="" title="java-example">
-
+<p><img src="https://i.loli.net/2020/05/02/apKXJ3bZmunBSW9.png" alt="java-simple-example-3.png"></p>
 <p>这样，我们的简易版计算器就完成了。虽然简单，但还是建议你在自己电脑上实现一次，看代码和写代码是完全不一样的两种体验。</p>
 <p>回顾一下本篇，我们设计了一个类<code>SimpleCalculator</code>，并编写了一个main方法，并在里面完成了简易版计算器的逻辑设计。也许你对于自己写的东西还有很多疑问，对象是什么？类又是什么含义？Scanner还可以做什么？前面的package有什么作用，import又是在干嘛？别着急，接着看后面的文章，相信你的疑问会一点一点消失。</p>
+<h2 id="练习题"><a href="#练习题" class="headerlink" title="练习题"></a>练习题</h2><ol>
+<li>写一个支持减法的计算器。</li>
+</ol>
+<p><img src="https://i.loli.net/2020/05/02/AfHOY5RXge9tlVo.png" alt="微信公众号"></p>
 
             </div>
             <hr/>
@@ -522,7 +524,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com" rel="external nofollow noreferrer">清风</a>
+                    <a href="https://mfrank2016.github.io" rel="external nofollow noreferrer">清风</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -532,7 +534,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/breeze-blog/2020/05/01/java/introduction/java-simple-example/">http://yoursite.com/breeze-blog/2020/05/01/java/introduction/java-simple-example/</a>
+                    <a href="https://mfrank2016.github.io/breeze-blog/2020/05/01/java/introduction/java-simple-example/">https://mfrank2016.github.io/breeze-blog/2020/05/01/java/introduction/java-simple-example/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -545,7 +547,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://yoursite.com" target="_blank">清风</a>
+                    <a href="https://mfrank2016.github.io" target="_blank">清风</a>
                     !
                 </span>
             </div>
@@ -1025,15 +1027,13 @@
                             
 只要你在，我便无所不能。 – 《进击的巨人》
 
-小结至此，Java入门篇就告一段落了，通过本篇的学习，希望你能掌握以下内容：
+小结至此，Java 入门篇就告一段落了，通过本篇的学习，希望你能掌握以下内容：
 
-Java有哪些用途
-部署JDK
-安装IDEA
-使用IDEA创建一个类
-使用IDEA开发一个简单的计算器
-
-Ja
+Java 有哪些用途
+部署 JDK
+安装 IDEA
+使用 IDEA 创建一个类
+使用 IDEA 开发一个简单
                         
                     </div>
                     <div class="publish-info">
@@ -1089,7 +1089,8 @@ Ja
                             
 每个人都衣冠楚楚，从来没有人会关心光芒万丈的外表下那藏在角落的，发了霉的落寞。  – 《西风》
 
-前言万事开头难，如果你已经顺利通过了前面安装环境的考验，那么恭喜你已经拿到了Java世界的钥匙，在打开这扇大门之前，我想再说说我玩这个游戏的
+前言万事开头难，如果你已经顺利通过了前面安装环境的考验，那么恭喜你已经拿到了 Java 世界的钥匙。
+在打开这扇大门之前，我想再说说我玩这个
                         
                     </div>
                     <div class="publish-info">
@@ -1310,15 +1311,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     }
 
     
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
 </style>
 <div class="">
     
@@ -1334,7 +1326,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
                    order='random'
                    preload='auto'
                    volume='0.5'
-                   list-folded='false'
+                   list-folded='true'
         >
         </meting-js>
     </div>
@@ -1353,7 +1345,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.3k</span>&nbsp;字
+                class="white-color">8.5k</span>&nbsp;字
             
             
             
