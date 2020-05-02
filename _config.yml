@@ -86,6 +86,8 @@ tag_map:
   基金投资: found
   敏捷开发: agile-development
   环境搭建: environment-building
+  博客: blog
+  
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
