@@ -69,7 +69,6 @@ dream:
   title: 所有我们看不见的光
   text: 我们就像一个细胞，比尘埃还小。小得多。除，乘，加和减。物质交换、原子流动、分子转移、蛋白质重组、线粒体发布氧化指令；我们像蜂拥在显微镜下的电子一样有了生命。肺、大脑、然后是心脏。四十周后，六万亿个细胞被产钳从母亲的身体里夹出来，我们放声大哭。我们加入了这个世界。我们被看不见的光所包围。
 
-
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
@@ -77,9 +76,10 @@ music:
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
-  autoHide: true    # hide automaticaly
+  autoHide: false    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
+  # id: 4998160558     #require	song id / playlist id / album id / search keyword
   id: 503838841     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: true    # 是否自动播放
@@ -88,7 +88,7 @@ music:
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: false  # 列表默认折叠
+  listFolded: true  # 列表默认折叠
 
 # Whether to display the videos.
 # 是否在首页显示视频.
