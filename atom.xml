@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-05-02T14:04:19.745Z</updated>
+  <updated>2020-05-02T14:07:14.452Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://mfrank2016.github.io/2020/05/02/hexo/hexo-start/"/>
     <id>https://mfrank2016.github.io/2020/05/02/hexo/hexo-start/</id>
     <published>2020-05-02T11:51:35.000Z</published>
-    <updated>2020-05-02T14:04:19.745Z</updated>
+    <updated>2020-05-02T14:07:14.452Z</updated>
     
     <summary type="html">
     
@@ -45,15 +45,9 @@
     
       <category term="Hexo" scheme="https://mfrank2016.github.io/tags/Hexo/"/>
     
-      <category term="博客" scheme="https://mfrank2016.github.io/tags/blog/"/>
-    
       <category term="github pages" scheme="https://mfrank2016.github.io/tags/github-pages/"/>
     
       <category term="travis ci" scheme="https://mfrank2016.github.io/tags/travis-ci/"/>
-    
-      <category term="hexo-theme-matery" scheme="https://mfrank2016.github.io/tags/hexo-theme-matery/"/>
-    
-      <category term="hexo-theme-next" scheme="https://mfrank2016.github.io/tags/hexo-theme-next/"/>
     
   </entry>
   
@@ -62,7 +56,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/</id>
     <published>2020-05-01T22:33:08.000Z</published>
-    <updated>2020-05-02T14:04:19.769Z</updated>
+    <updated>2020-05-02T14:07:14.476Z</updated>
     
     <summary type="html">
     
@@ -94,7 +88,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/</id>
     <published>2020-05-01T22:33:07.000Z</published>
-    <updated>2020-05-02T14:04:19.769Z</updated>
+    <updated>2020-05-02T14:07:14.476Z</updated>
     
     <summary type="html">
     
@@ -126,7 +120,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-introduction/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-introduction/</id>
     <published>2020-05-01T22:33:06.000Z</published>
-    <updated>2020-05-02T14:04:19.769Z</updated>
+    <updated>2020-05-02T14:07:14.476Z</updated>
     
     <summary type="html">
     
@@ -158,7 +152,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/</id>
     <published>2020-05-01T22:33:05.000Z</published>
-    <updated>2020-05-02T14:04:19.765Z</updated>
+    <updated>2020-05-02T14:07:14.472Z</updated>
     
     <summary type="html">
     
@@ -192,7 +186,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/</id>
     <published>2020-05-01T22:33:04.000Z</published>
-    <updated>2020-05-02T14:04:19.753Z</updated>
+    <updated>2020-05-02T14:07:14.460Z</updated>
     
     <summary type="html">
     
@@ -226,7 +220,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-windows/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-windows/</id>
     <published>2020-05-01T22:33:03.000Z</published>
-    <updated>2020-05-02T14:04:19.761Z</updated>
+    <updated>2020-05-02T14:07:14.468Z</updated>
     
     <summary type="html">
     
@@ -260,7 +254,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/</id>
     <published>2020-05-01T22:33:02.000Z</published>
-    <updated>2020-05-02T14:04:19.765Z</updated>
+    <updated>2020-05-02T14:07:14.472Z</updated>
     
     <summary type="html">
     
@@ -294,7 +288,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/</id>
     <published>2020-05-01T22:33:01.000Z</published>
-    <updated>2020-05-02T14:04:19.769Z</updated>
+    <updated>2020-05-02T14:07:14.476Z</updated>
     
     <summary type="html">
     
