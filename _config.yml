@@ -5,7 +5,7 @@
 # Site
 title: 弗兰克的猫
 subtitle: '永远年轻，永远热泪盈眶'
-description: ''
+description: '铭记过去，拥抱未来，心中有梦，眼里有光'
 keywords: 生活,编程,阅读,音乐,电影
 author: 清风
 language: zh-CN
@@ -18,8 +18,8 @@ root: /breeze-blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -34,10 +34,11 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
-  field: site # Apply to the whole site
+  field: post # Apply to the whole site
   exclude: ''
 filename_case: 0
 render_drafts: false
@@ -80,13 +81,14 @@ category_map:
   随想: thoughts
   理财: finance
 tag_map:
-  方法论: methodology
-  实用: practical
-  理论: theoretical
   基金投资: found
   敏捷开发: agile-development
   环境搭建: environment-building
   博客: blog
+  Java入门: java-beginning
+  Java基础: java-basic
+  最佳实践: best-practice
+  优雅重试: retry-gracefully
   
 
 # Metadata elements
@@ -100,7 +102,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+use_date_for_updated: true
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -116,6 +118,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+# theme: hexo-theme-matery
 theme: hexo-theme-matery
 
 # Deployment
