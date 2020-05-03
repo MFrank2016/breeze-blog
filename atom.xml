@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-05-02T14:07:14.452Z</updated>
+  <updated>2020-05-04T01:00:50.000Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -17,11 +17,338 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【RabbitMQ】一文带你搞定RabbitMQ延迟队列</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-use-delay-queue/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-use-delay-queue/</id>
+    <published>2020-05-04T01:00:50.000Z</published>
+    <updated>2020-05-04T01:00:50.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文口味：鱼香肉丝   预计阅读：10分钟&lt;/p&gt;
+&lt;h2 id=&quot;一、说明&quot;&gt;&lt;a href=&quot;#一、说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="RabbitMQ" scheme="https://mfrank2016.github.io/tags/RabbitMQ/"/>
+    
+      <category term="DelayQueue" scheme="https://mfrank2016.github.io/tags/DelayQueue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【RabbitMQ】一文带你搞定RabbitMQ死信队列</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-use-dead-letter-queue/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-use-dead-letter-queue/</id>
+    <published>2020-05-04T01:00:40.000Z</published>
+    <updated>2020-05-04T01:00:40.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文口味：爆炒鱿鱼   预计阅读：15分钟&lt;/p&gt;
+&lt;h2 id=&quot;一、说明&quot;&gt;&lt;a href=&quot;#一、说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="RabbitMQ" scheme="https://mfrank2016.github.io/tags/RabbitMQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【RabbitMQ】如何进行消息可靠投递【下篇】</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-ensure-reliable-delivery-of-message2/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-ensure-reliable-delivery-of-message2/</id>
+    <published>2020-05-04T01:00:30.000Z</published>
+    <updated>2020-05-04T01:00:30.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="RabbitMQ" scheme="https://mfrank2016.github.io/tags/RabbitMQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【RabbitMQ】如何进行消息可靠投递【上篇】</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-ensure-reliable-delivery-of-message/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/rabbitmq/rabbitmq-how-to-ensure-reliable-delivery-of-message/</id>
+    <published>2020-05-04T01:00:20.000Z</published>
+    <updated>2020-05-04T01:00:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="RabbitMQ" scheme="https://mfrank2016.github.io/tags/RabbitMQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【最佳实践】如何优雅的进行重试</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/best-practice/how-to-retry-elegantly/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/best-practice/how-to-retry-elegantly/</id>
+    <published>2020-05-04T01:00:10.000Z</published>
+    <updated>2020-05-04T01:00:10.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文口味：冰镇杨梅           预计阅读：20分钟&lt;/p&gt;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="最佳实践" scheme="https://mfrank2016.github.io/tags/best-practice/"/>
+    
+      <category term="优雅重试" scheme="https://mfrank2016.github.io/tags/retry-gracefully/"/>
+    
+      <category term="Spring" scheme="https://mfrank2016.github.io/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java基础篇】四、Java 类与对象</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/java/basic/java-class/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/java/basic/java-class/</id>
+    <published>2020-05-04T00:25:05.000Z</published>
+    <updated>2020-05-04T00:25:05.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Java-类与对象&quot;&gt;&lt;a href=&quot;#Java-类与对象&quot; class=&quot;headerlink&quot; title=&quot;Java 类与对象&quot;&gt;&lt;/a&gt;Java 类与对象&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“Sometimes we stare
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java基础篇】三、Java 变量</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/java/basic/java-variable/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/java/basic/java-variable/</id>
+    <published>2020-05-04T00:25:04.000Z</published>
+    <updated>2020-05-04T00:25:04.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“The superior man makes the difficulty to be overcome his first interest; success comes only
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java基础篇】二、Java 程序基本结构</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/java/basic/java-simple-structure/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/java/basic/java-simple-structure/</id>
+    <published>2020-05-04T00:25:03.000Z</published>
+    <updated>2020-05-04T00:25:03.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;“No matter how small and unimportant what we are doing may seem, if we do it well, it may soon become the step that will
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java基础篇】一、Java package与import</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/java/basic/java-package/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/java/basic/java-package/</id>
+    <published>2020-05-04T00:25:02.000Z</published>
+    <updated>2020-05-04T00:25:02.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;共道人间惆怅事，不知今夕是何年。  – 《周秦行纪》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;关卡说明&quot;&gt;&lt;a href=&quot;#关卡说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java基础篇】启航</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/java/basic/java-basic/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/java/basic/java-basic/</id>
+    <published>2020-05-04T00:25:01.000Z</published>
+    <updated>2020-05-04T00:25:01.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;无论最终的结果是什么，只要这是自己选择的道路。 – 《龙与虎》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（二）</title>
+    <link href="https://mfrank2016.github.io/2020/05/03/hexo/hexo-config/"/>
+    <id>https://mfrank2016.github.io/2020/05/03/hexo/hexo-config/</id>
+    <published>2020-05-03T21:29:17.000Z</published>
+    <updated>2020-05-03T21:29:17.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;上一篇里，介绍了使用 &lt;code&gt;Hexo&lt;/code&gt; + &lt;code&gt;github pages&lt;/code&gt; +
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
+    
+      <category term="Hexo" scheme="https://mfrank2016.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（一）</title>
     <link href="https://mfrank2016.github.io/2020/05/02/hexo/hexo-start/"/>
     <id>https://mfrank2016.github.io/2020/05/02/hexo/hexo-start/</id>
     <published>2020-05-02T11:51:35.000Z</published>
-    <updated>2020-05-02T14:07:14.452Z</updated>
+    <updated>2020-05-02T11:51:35.000Z</updated>
     
     <summary type="html">
     
@@ -56,7 +383,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/</id>
     <published>2020-05-01T22:33:08.000Z</published>
-    <updated>2020-05-02T14:07:14.476Z</updated>
+    <updated>2020-05-01T22:33:08.000Z</updated>
     
     <summary type="html">
     
@@ -77,9 +404,9 @@
       <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -88,7 +415,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/</id>
     <published>2020-05-01T22:33:07.000Z</published>
-    <updated>2020-05-02T14:07:14.476Z</updated>
+    <updated>2020-05-01T22:33:07.000Z</updated>
     
     <summary type="html">
     
@@ -109,9 +436,9 @@
       <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -120,7 +447,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-introduction/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-introduction/</id>
     <published>2020-05-01T22:33:06.000Z</published>
-    <updated>2020-05-02T14:07:14.476Z</updated>
+    <updated>2020-05-01T22:33:06.000Z</updated>
     
     <summary type="html">
     
@@ -141,9 +468,9 @@
       <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -152,7 +479,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/</id>
     <published>2020-05-01T22:33:05.000Z</published>
-    <updated>2020-05-02T14:07:14.472Z</updated>
+    <updated>2020-05-01T22:33:05.000Z</updated>
     
     <summary type="html">
     
@@ -175,9 +502,9 @@
     
       <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -186,7 +513,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/</id>
     <published>2020-05-01T22:33:04.000Z</published>
-    <updated>2020-05-02T14:07:14.460Z</updated>
+    <updated>2020-05-01T22:33:04.000Z</updated>
     
     <summary type="html">
     
@@ -209,9 +536,9 @@
     
       <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -220,7 +547,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-windows/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-windows/</id>
     <published>2020-05-01T22:33:03.000Z</published>
-    <updated>2020-05-02T14:07:14.468Z</updated>
+    <updated>2020-05-01T22:33:03.000Z</updated>
     
     <summary type="html">
     
@@ -243,9 +570,9 @@
     
       <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -254,7 +581,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/</id>
     <published>2020-05-01T22:33:02.000Z</published>
-    <updated>2020-05-02T14:07:14.472Z</updated>
+    <updated>2020-05-01T22:33:02.000Z</updated>
     
     <summary type="html">
     
@@ -277,9 +604,9 @@
     
       <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
@@ -288,7 +615,7 @@
     <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/"/>
     <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/</id>
     <published>2020-05-01T22:33:01.000Z</published>
-    <updated>2020-05-02T14:07:14.476Z</updated>
+    <updated>2020-05-01T22:33:01.000Z</updated>
     
     <summary type="html">
     
@@ -309,9 +636,9 @@
       <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
     
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/Java%E5%85%A5%E9%97%A8/"/>
-    
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
+    
+      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   

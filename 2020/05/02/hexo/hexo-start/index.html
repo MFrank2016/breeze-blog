@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（一）, 生活,编程,阅读,音乐,电影">
-    <meta name="description" content="">
+    <meta name="description" content="铭记过去，拥抱未来，心中有梦，眼里有光">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -144,7 +144,7 @@
         <div class="logo-name">弗兰克的猫</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            铭记过去，拥抱未来，心中有梦，眼里有光
             
         </div>
     </div>
@@ -423,14 +423,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3k
+                    3.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    12 分
                 </div>
                 
 
@@ -533,6 +533,9 @@
 <h2 id="六、部署到-github-pages"><a href="#六、部署到-github-pages" class="headerlink" title="六、部署到 github pages"></a>六、部署到 github pages</h2><p><code>github pages</code> 可以理解为 <del>gayhub</del> <code>github</code> 提供的免费网页空间，可以用来存放你的静态网页文件，并通过 <code>https://用户名.github.io/项目名/</code> 的方式来访问，比如我新创建的 <code>blog</code> 地址就是：<code>https://mfrank2016.github.io/breeze-blog/</code>。</p>
 <p>利用 <code>github pages</code> 就能创建我们的免费博客站点了，至于为什么要使用免费站点，而不选择购买服务器来搭建，是因为根据之前使用服务器经常忘记续费，导致博客数据丢失，损失惨重。<code>github</code> 已经稳定运行了很多年，是全球最大的 <del>同性交友网站</del> 开发者网站，他们的服务值得信赖。而且是免费的。</p>
 <p>我们之前已经注册好 <code>github</code> 的账号并创建好了对应的仓库，本地也安装好了 <code>git</code> ，现在让我们来把他们利用起来。（如果还没有完成的同学可以往上面翻翻，先完成前面的步骤）</p>
+<blockquote>
+<p>注意：有两种类型的 <code>github pages</code>，一种是使用 <code>用户名.github.io</code> 作为项目名，一种是使用其它名称。虽然看起来只是名字不一样，但两种方式其实是有差异的，前一种方式里，网页静态文件只能存放在 master 分支，所以如果想要把博客源文件也存到同一个仓库，必须使用其它分支来存放，相应的 travis ci 监听和推送的分支也需要修改，当然也可以使用另一个新的仓库来存放。后一种方式则没这个限制，通常使用名为 <code>gh-pages</code> 作为分支名，<code>Hexo</code> 内默认设置的分支也是叫这个名字。这里我们使用的是后一种方案，即源文件和生成的网页静态文件存放在同一个仓库，源文件在 <code>master</code> 分支，静态文件在 <code>gh-pages</code> 分支。</p>
+</blockquote>
 <p>首先，我们将本地的文件推送到 <code>github</code> 上。</p>
 <p>在 <code>breeze-blog</code> 目录下，初始化 <code>git</code> 仓库，将现有文件添加到 <code>git</code> 仓库中，并创建 <code>gh-pages</code> 分支：</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> breeze-blog
@@ -1129,31 +1132,30 @@ hexo new <span class="token string">"my first blog"</span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/breeze-blog/2020/05/02/hexo/hexo-start/">
+                <a href="/breeze-blog/2020/05/03/hexo/hexo-config/">
                     <div class="card-image">
                         
                         
-                        <img src="/breeze-blog/medias/featureimages/18.jpg" class="responsive-img" alt="【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（一）">
+                        <img src="/breeze-blog/medias/featureimages/22.jpg" class="responsive-img" alt="【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（二）">
                         
-                        <span class="card-title">【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（一）</span>
+                        <span class="card-title">【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（二）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一、说明本系列文章将会详细说明使用 Hexo + github pages 来搭建个人博客，并对主题进行配置，然后使用 travis ci 来进行自动化部署的全过程。
-搭建一个赏心悦目的博客，写文章和阅读也会更加舒适，一次搭建，终生使用，而
+                            说明上一篇里，介绍了使用 Hexo + github pages + travis ci 实现自动化博客部署，我们已经收获了一个属于自己的博客，但现在还比较简陋，里面的设置信息都是默认的数据，所以我们需要把它们改成我们想要的内容。
+所以这一
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-02
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1162,15 +1164,10 @@ hexo new <span class="token string">"my first blog"</span>
                                     编程
                                 </a>
                             
-                            <a href="/breeze-blog/categories/programming/life/" class="post-category">
-                                    生活
-                                </a>
-                            
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1180,14 +1177,6 @@ hexo new <span class="token string">"my first blog"</span>
                     
                     <a href="/breeze-blog/tags/Hexo/">
                         <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/breeze-blog/tags/github-pages/">
-                        <span class="chip bg-color">github pages</span>
-                    </a>
-                    
-                    <a href="/breeze-blog/tags/travis-ci/">
-                        <span class="chip bg-color">travis ci</span>
                     </a>
                     
                 </div>
@@ -1244,12 +1233,12 @@ Java 有哪些用途
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/breeze-blog/tags/Java%E5%85%A5%E9%97%A8/">
-                        <span class="chip bg-color">Java入门</span>
-                    </a>
-                    
                     <a href="/breeze-blog/tags/Java/">
                         <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/breeze-blog/tags/java-beginning/">
+                        <span class="chip bg-color">Java入门</span>
                     </a>
                     
                 </div>
@@ -1477,7 +1466,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">11.5k</span>&nbsp;字
+                class="white-color">41.5k</span>&nbsp;字
             
             
             
