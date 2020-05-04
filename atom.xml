@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-05-04T01:00:50.000Z</updated>
+  <updated>2020-05-04T10:40:14.000Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（三）</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/hexo/hexo-theme/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/hexo/hexo-theme/</id>
+    <published>2020-05-04T10:40:14.000Z</published>
+    <updated>2020-05-04T10:40:14.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;前两篇文章介绍了 &lt;code&gt;Hexo&lt;/code&gt; + &lt;code&gt;github pages&lt;/code&gt; + &lt;code&gt;travis
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
+    
+      <category term="Hexo" scheme="https://mfrank2016.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>【RabbitMQ】一文带你搞定RabbitMQ延迟队列</title>
@@ -603,38 +632,6 @@
     
     
       <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java入门篇】起航</title>
-    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/"/>
-    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-started/</id>
-    <published>2020-05-01T22:33:01.000Z</published>
-    <updated>2020-05-01T22:33:01.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;最害怕的东西，最应该去突破&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;初衷&quot;&gt;&lt;a href=&quot;#初衷&quot; class=&quot;headerlink&quot; title=&quot;初衷&quot;&gt;&lt;/a&gt;初衷&lt;/h2&gt;&lt;p&gt;之前博主在&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
     
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     

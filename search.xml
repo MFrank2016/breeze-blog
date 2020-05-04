@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（三）</title>
+      <link href="/breeze-blog/2020/05/04/hexo/hexo-theme/"/>
+      <url>/breeze-blog/2020/05/04/hexo/hexo-theme/</url>
+      
+        <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>前两篇文章介绍了 <code>Hexo</code> + <code>github pages</code> + <code>travis ci</code> 进行自动化部署，并介绍了 <code>Hexo</code> 的配置文件中的各个属性，相信通过前两篇文章的学习，你已经学会了如何搭建自己的博客，并能够根据自己的需要进行个性化配置。</p><p>这一篇将以 <code>Matery</code> 这款主题为例，说明一下主题应该如何配置。包括主题配置、插件设置、注意事项等。</p><h2 id="设置博客主题"><a href="#设置博客主题" class="headerlink" title="设置博客主题"></a>设置博客主题</h2><p>先到<a href="https://hexo.io/themes/" target="_blank" rel="noopener">这里</a> 选择你喜欢的主题，</p><p>再次打开我们的配置文件(_config.yml)，修改 <em>theme</em> 属性，比如</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 环境搭建 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【RabbitMQ】一文带你搞定RabbitMQ延迟队列</title>
       <link href="/breeze-blog/2020/05/04/rabbitmq/rabbitmq-how-to-use-delay-queue/"/>
       <url>/breeze-blog/2020/05/04/rabbitmq/rabbitmq-how-to-use-delay-queue/</url>
