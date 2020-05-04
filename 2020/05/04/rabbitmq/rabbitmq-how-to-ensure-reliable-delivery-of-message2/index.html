@@ -414,7 +414,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    13 分
+                    14 分
                 </div>
                 
 
@@ -763,7 +763,25 @@ Returned message but no callback available
 <p>相信通过这几篇关于 <em>RabbitMQ</em> 文章的学习，对于 <em>RabbitMQ</em> 的理解已经突破天际，那还在等什么，赶紧把接入 <em>RabbitMQ</em> 的项目好好优化一下吧，相信现在你就不会再被那些不知所云的配置和代码所迷惑了。</p>
 <p>到此为止，本篇就完美落幕了，希望能给你带来一些启发，也欢迎关注我的公众号进行留言交流。</p>
 <p><img src="https://i.loli.net/2019/08/11/8MxBPNgyIlTZDRk.png" alt="1565529015677.png"></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1371,7 +1389,7 @@ Returned message but no callback available
 
         var selection = window.getSelection();
         // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('200')) {
+        if (('' + selection).length < Number.parseInt('50')) {
             return;
         }
 
@@ -1551,7 +1569,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="4965675848"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
@@ -1578,7 +1596,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">41.7k</span>&nbsp;字
+                class="white-color">47.3k</span>&nbsp;字
             
             
             

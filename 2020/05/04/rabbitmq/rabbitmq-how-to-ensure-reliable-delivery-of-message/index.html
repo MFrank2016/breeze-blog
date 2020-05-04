@@ -407,14 +407,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.1k
+                    3.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    12 分
                 </div>
                 
 
@@ -664,7 +664,25 @@ rabbitTemplate<span class="token punctuation">.</span><span class="token functio
 <p>一般来说，这种“断电”不会持续较长时间，一般几分钟到半小时之间，很快能够恢复，所以如果是重要消息，可以保存到数据库中，如果是非重要消息，可以使用<em>redis</em>进行保存，当然，还要根据消息的数量级来进行判断。</p>
 <p>如果消息量比较大，可以考虑将消息发送到另一个集群的死信队列中，事实上，所在公司就有两个<em>RabbitMQ</em>集群，所以当一个集群不可用时，可以往另一个集群发消息，emmm，如果两个机房都停电了的话，当我没说。</p>
 <p><img src="https://i.loli.net/2019/08/19/c8ZGAL7OEPQTeWM.jpg" alt="111.png.jpg"></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1277,7 +1295,7 @@ rabbitTemplate<span class="token punctuation">.</span><span class="token functio
 
         var selection = window.getSelection();
         // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('200')) {
+        if (('' + selection).length < Number.parseInt('50')) {
             return;
         }
 
@@ -1457,7 +1475,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="4965675848"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
@@ -1484,7 +1502,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">41.7k</span>&nbsp;字
+                class="white-color">47.3k</span>&nbsp;字
             
             
             

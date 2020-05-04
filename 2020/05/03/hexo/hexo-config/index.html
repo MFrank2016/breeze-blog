@@ -411,14 +411,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.6k
+                    2.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    10 分
+                    11 分
                 </div>
                 
 
@@ -705,7 +705,7 @@ skip_render:</code></pre>
 <tr>
 <td align="left"><code>highlight.tab_replace</code></td>
 <td align="left">用 n 个空格替换 <code>tabs</code>；如果值为空，则不会替换 <code>tabs</code></td>
-<td align="left"><code>&#39;&#39;</code></td>
+<td align="left"><code>''</code></td>
 </tr>
 <tr>
 <td align="left"><code>highlight.wrap</code></td>
@@ -942,7 +942,25 @@ ignore:
   - "**/themes/**/foo"</code></pre>
 <p>列表中的每一项都必须用单引号或双引号包裹起来。</p>
 <p><code>include</code> 和 <code>exclude</code> 并不适用于 <code>themes/</code> 目录下的文件。如果需要忽略 <code>themes/</code> 目录下的部分文件或文件夹，可以使用 <code>ignore</code> 或在文件名之前添加下划线 <code>_</code>。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1575,7 +1593,7 @@ ignore:
 
         var selection = window.getSelection();
         // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('200')) {
+        if (('' + selection).length < Number.parseInt('50')) {
             return;
         }
 
@@ -1755,7 +1773,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="4965675848"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
@@ -1782,7 +1800,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">41.7k</span>&nbsp;字
+                class="white-color">47.3k</span>&nbsp;字
             
             
             

@@ -411,7 +411,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    398
+                    450
                 </div>
                 
 
@@ -442,7 +442,25 @@
 <p>为了不让这个过程太过枯燥，本篇将继续完善上一篇中的计算器，以它为基础进行分析，并随着学习的深入，让它的功能变得越来越强大。当然，除了这个计算器之外，还会有很多小栗子伴随其中，以加深大家对这个部分的理解。</p>
 <p>之后的每一篇开头，都会引用一句话来作为鼓励，希望它能成为激励你继续前进的精神力量。</p>
 <p>那么，年轻的勇士，继续你的征程吧！</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1063,7 +1081,7 @@
 
         var selection = window.getSelection();
         // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('200')) {
+        if (('' + selection).length < Number.parseInt('50')) {
             return;
         }
 
@@ -1243,7 +1261,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="4965675848"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
@@ -1270,7 +1288,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">41.7k</span>&nbsp;字
+                class="white-color">47.3k</span>&nbsp;字
             
             
             

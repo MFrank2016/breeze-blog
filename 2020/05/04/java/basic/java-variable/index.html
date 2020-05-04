@@ -492,7 +492,25 @@
 <p>变量命名最好符合它使用的意义，能表现其作用，因为往往在一个程序中会出现非常多的变量，如果变量命名都像<code>a1</code>、<code>a2</code>、<code>a3</code>这样看了让人摸不着头脑的形式，那么将使得代码的阅读和维护变得十分困难。永远不要忘记，代码是用来阅读的。</p>
 <p>在<em>Java</em>中，变量的命名通常使用小驼峰命名法，也就是第一个单词的首字母小写，其余单词的首字母大写，比如：<code>totalDays</code>、<code>paperWidth</code>。</p>
 <h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>至此，关于变量的介绍就结束了，变量是Java中最重要也是最基础的组成部分，希望你能很好的理解和掌握它。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1111,7 +1129,7 @@
 
         var selection = window.getSelection();
         // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('200')) {
+        if (('' + selection).length < Number.parseInt('50')) {
             return;
         }
 
@@ -1291,7 +1309,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="4965675848"
                    fixed='true'
                    autoplay='true'
                    theme='#42b983'
@@ -1318,7 +1336,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">41.7k</span>&nbsp;字
+                class="white-color">47.3k</span>&nbsp;字
             
             
             

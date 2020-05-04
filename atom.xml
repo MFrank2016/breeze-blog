@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-05-04T10:40:14.000Z</updated>
+  <updated>2020-05-04T18:36:09.000Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我是“后浪”，我为自己代言</title>
+    <link href="https://mfrank2016.github.io/2020/05/04/thoughts/i-am-waves-behind/"/>
+    <id>https://mfrank2016.github.io/2020/05/04/thoughts/i-am-waves-behind/</id>
+    <published>2020-05-04T18:36:09.000Z</published>
+    <updated>2020-05-04T18:36:09.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天被B站的“前浪”，“后浪”刷屏了，说实话，一开始看那个视频的时候，还是满腔热血的，但对于这种会让我热血的东西，一向很谨慎，因为热血会让我失去常理，从而让一些不太正确的言论趁机潜入我的思想里来。&lt;/p&gt;
+&lt;p&gt;但思索半天，也没有找出来我的情绪是如何被调动的，音乐？台词？背
+        
+      
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="https://mfrank2016.github.io/categories/thoughts/"/>
+    
+    
+      <category term="哲思" scheme="https://mfrank2016.github.io/tags/philosophizing/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（三）</title>
@@ -588,40 +616,6 @@
 &lt;p&gt;你为了你的正义，我为了我的正义。 – 《火影忍者》&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;一、安装JDK&quot;&gt;&lt;a href=&quot;#一、安装JDK&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java入门篇】一、Java开发环境搭建——概念说明</title>
-    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/"/>
-    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment/</id>
-    <published>2020-05-01T22:33:02.000Z</published>
-    <updated>2020-05-01T22:33:02.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;如果不能忠于自己的心，胜负又有什么价值呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;前面说到
         
       
     
