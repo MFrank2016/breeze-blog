@@ -80,7 +80,7 @@ music:
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
   # id: 4999578446     #require	song id / playlist id / album id / search keyword
-  id: 503838841     #require	song id / playlist id / album id / search keyword
+  id: 4965675848     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: true    # 是否自动播放
   theme: '#42b983'
@@ -170,7 +170,7 @@ reward:
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
   enable: true
-  minCharNumber: 200 # 至少复制多少个字符就追加版权信息.
+  minCharNumber: 50 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.

@@ -89,7 +89,7 @@ tag_map:
   Java基础: java-basic
   最佳实践: best-practice
   优雅重试: retry-gracefully
-  
+  哲思: philosophizing
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -156,3 +156,11 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+# emoji 表情支持
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:

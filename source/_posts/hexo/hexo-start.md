@@ -319,6 +319,15 @@ git push
 
 `travis ci` 的配置也很简单，而且只需要配置一次，之后就不需要修改了。
 
+首先，我们需要把*_config.yml*文件里的*repo*信息注释一下，不需要在配置文件里指定仓库地址，`travis ci` 会直接在其监听项目上进行部署。
+
+```yml
+deploy:
+  type: 'git'
+#  repo: git@github.com:MFrank2016/breeze-blog
+  branch: gh-pages
+```
+
 在本地博客目录下创建一个名为 `.travis.yml` 的文件，与 `_config.yml` 要在同级目录。
 
 然后在文件中写入以下内容：
