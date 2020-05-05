@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>我是“后浪”，我为自己代言</title>
-      <link href="/breeze-blog/2020/05/04/thoughts/i-am-waves-behind/"/>
-      <url>/breeze-blog/2020/05/04/thoughts/i-am-waves-behind/</url>
-      
-        <content type="html"><![CDATA[<p>今天被B站的“前浪”，“后浪”刷屏了，说实话，一开始看那个视频的时候，还是满腔热血的，但对于这种会让我热血的东西，一向很谨慎，因为热血会让我失去常理，从而让一些不太正确的言论趁机潜入我的思想里来。</p><p>但思索半天，也没有找出来我的情绪是如何被调动的，音乐？台词？背景？都是又不全是，就像一个被骗</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 随想 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 哲思 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（三）</title>
       <link href="/breeze-blog/2020/05/04/hexo/hexo-theme/"/>
       <url>/breeze-blog/2020/05/04/hexo/hexo-theme/</url>
