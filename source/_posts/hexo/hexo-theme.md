@@ -540,3 +540,4 @@ valine:
 
 至此，`Matery` 主题就搭建配置完成了，接下来就只需要安心写博客了～
 
+![微信公众号](https://i.loli.net/2020/05/02/AfHOY5RXge9tlVo.png)

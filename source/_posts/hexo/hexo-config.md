@@ -344,7 +344,7 @@ ignore:
 
 `include` 和 `exclude` 并不适用于 `themes/` 目录下的文件。如果需要忽略 `themes/` 目录下的部分文件或文件夹，可以使用 `ignore` 或在文件名之前添加下划线 `_`。
 
-
+![微信公众号](https://i.loli.net/2020/05/02/AfHOY5RXge9tlVo.png)
 
 
 
