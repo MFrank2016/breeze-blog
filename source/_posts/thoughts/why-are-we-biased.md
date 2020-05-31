@@ -1,8 +1,7 @@
 ---
-title: 【RabbitMQ】一文带你搞定RabbitMQ延迟队列
+title: 【聊聊认知】你以为你以为的就是你以为的吗
 tags:
-  - RabbitMQ
-  - DelayQueue
+  - Thoughts
 categories:
   - 编程
 toc: true
