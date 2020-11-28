@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-11-01T23:45:35.000Z</updated>
+  <updated>2020-11-28T08:54:35.000Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【R语言入门】R语言中的变量与基本数据类型</title>
+    <link href="https://mfrank2016.github.io/2020/11/28/data-analysis/r-study-basic-type/"/>
+    <id>https://mfrank2016.github.io/2020/11/28/data-analysis/r-study-basic-type/</id>
+    <published>2020-11-28T08:54:35.000Z</published>
+    <updated>2020-11-28T08:54:35.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;在前一篇中，我们介绍了 &lt;code&gt;R&lt;/code&gt; 语言和 &lt;code&gt;R Studio&lt;/code&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+      <category term="数据分析" scheme="https://mfrank2016.github.io/categories/programming/data-analysis/"/>
+    
+    
+      <category term="R" scheme="https://mfrank2016.github.io/tags/R/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【R语言入门】R语言环境搭建</title>
+    <link href="https://mfrank2016.github.io/2020/11/28/data-analysis/r-study-install/"/>
+    <id>https://mfrank2016.github.io/2020/11/28/data-analysis/r-study-install/</id>
+    <published>2020-11-28T08:47:35.000Z</published>
+    <updated>2020-11-28T08:47:35.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;&lt;code&gt;R&lt;/code&gt; 语言是一个功能十分强大的工具，几乎绝大多数的数据分析工作都可以在 &lt;code&gt;R&lt;/code&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+      <category term="数据分析" scheme="https://mfrank2016.github.io/categories/programming/data-analysis/"/>
+    
+    
+      <category term="R" scheme="https://mfrank2016.github.io/tags/R/"/>
+    
+  </entry>
   
   <entry>
     <title>【周末随想】我思故我在</title>
@@ -551,74 +609,6 @@
     
       <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
     
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java入门篇】四、Java开发环境搭建——IDE</title>
-    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/"/>
-    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-ide/</id>
-    <published>2020-05-01T22:33:05.000Z</published>
-    <updated>2020-05-01T22:33:05.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;不相信自己的人 连努力的价值都没有。 –《火影忍者》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java入门篇】三、Java开发环境搭建——Mac篇</title>
-    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/"/>
-    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-environment-mac/</id>
-    <published>2020-05-01T22:33:04.000Z</published>
-    <updated>2020-05-01T22:33:04.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;人非圣贤，孰能无过？过而能改，善莫大焉。 –《左传》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;步骤说明&quot;&gt;&lt;a href=&quot;#步骤说明&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
