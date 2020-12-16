@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-11-29T22:45:35.000Z</updated>
+  <updated>2020-12-16T22:50:00.000Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Go语言绘图】图片的旋转</title>
+    <link href="https://mfrank2016.github.io/2020/12/16/picture/go-pic-rotate-use-gg-package/"/>
+    <id>https://mfrank2016.github.io/2020/12/16/picture/go-pic-rotate-use-gg-package/</id>
+    <published>2020-12-16T22:50:00.000Z</published>
+    <updated>2020-12-16T22:50:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在上一篇中，我们了解了gg库的基本使用，包括调整大小、调整圆形参数、设置颜色、保存图片、加载图片和裁剪。这一篇我们来学习一下图片的旋转。&lt;/p&gt;
+&lt;h2 id=&quot;加载图片&quot;&gt;&lt;a href=&quot;#加载图片&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="go" scheme="https://mfrank2016.github.io/tags/go/"/>
+    
+  </entry>
   
   <entry>
     <title>【Go语言绘图】gg 库的基本使用</title>
@@ -565,38 +593,6 @@
 &lt;p&gt;只要你在，我便无所不能。 – 《进击的巨人》&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java入门篇】六、Java简单示例</title>
-    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/"/>
-    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-simple-example/</id>
-    <published>2020-05-01T22:33:07.000Z</published>
-    <updated>2020-05-01T22:33:07.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;人都有两面，一面天使，一面恶魔&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     

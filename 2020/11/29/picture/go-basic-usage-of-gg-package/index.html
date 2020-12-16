@@ -434,9 +434,9 @@
 <h2 id="gg-库的安装和简单使用"><a href="#gg-库的安装和简单使用" class="headerlink" title="gg 库的安装和简单使用"></a>gg 库的安装和简单使用</h2><p>使用之前，我们当然得先来安装一下这个库：</p>
 <pre class=" language-go"><code class="language-go"><span class="token keyword">go</span> get <span class="token operator">-</span>u github<span class="token punctuation">.</span>com<span class="token operator">/</span>fogleman<span class="token operator">/</span>gg</code></pre>
 <p>这个库的一个好处是有很多测试代码，可以拿来跑跑看，就知道它大概能实现什么样的效果了。</p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379639" alt="92ac66741a0d052cbe13808f7cf0108e.png"></p>
+<p><img src="1.png" alt=""></p>
 <p>这是它例子的大概效果图，可以看到，能实现的图形效果还是挺多的。</p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379640" alt="c3befd5d75e3c074881703ad0e76e42e.png"></p>
+<p><img src="2.png" alt=""></p>
 <p>我们拿其中的一个代码来简单体验一下：</p>
 <pre class=" language-go"><code class="language-go"><span class="token keyword">package</span> main
 
@@ -450,29 +450,27 @@
     dc<span class="token punctuation">.</span><span class="token function">SavePNG</span><span class="token punctuation">(</span><span class="token string">"out.png"</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span></code></pre>
 <p>duang 的一下，一张黑不溜秋的圆形图就生成了。</p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379642" alt="e55507eb39661977fe10f4aef3a5a2fb.png"></p>
+<p><img src="3.png" alt=""></p>
 <p>关于上面的代码，下面会进行逐一说明。</p>
 <h2 id="调整生成图片的大小"><a href="#调整生成图片的大小" class="headerlink" title="调整生成图片的大小"></a>调整生成图片的大小</h2><pre class=" language-go"><code class="language-go">dc <span class="token operator">:=</span> gg<span class="token punctuation">.</span><span class="token function">NewContext</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span></code></pre>
 <p>这是先初始化一个 <code>Context</code> 对象，使用库之前都需要先初始化一个 <code>Context</code> 对象，后面的两个 <code>1000</code>，分别对应着最终生成图片的宽度和高度。我们可以修改一下高度为 <code>500</code> 看看效果。</p>
 <pre class=" language-go"><code class="language-go">dc <span class="token operator">:=</span> gg<span class="token punctuation">.</span><span class="token function">NewContext</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">)</span></code></pre>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379643" alt="27c9e4341e0b988c2d357687d344b38b.png"></p>
+<p><img src="4.png" alt=""></p>
 <p>可以看到图片被腰斩了，高度矮了一半，同样修改宽度参数也可以得到类似的效果，这里就不演示了。</p>
 <h2 id="调整圆形参数"><a href="#调整圆形参数" class="headerlink" title="调整圆形参数"></a>调整圆形参数</h2><pre class=" language-go"><code class="language-go">dc<span class="token punctuation">.</span><span class="token function">DrawCircle</span><span class="token punctuation">(</span><span class="token number">500</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span> <span class="token number">400</span><span class="token punctuation">)</span></code></pre>
 <p>这里是画一个圆心位置在 <code>(500,500)</code>，半径为 <code>400</code> 的圆形。需要说明的一点是，这里的坐标轴是以左上角为原点的，水平向右是横轴正方向，竖直向下是纵轴正方向，所以<code>(500,500)</code>正是中心位置。我们可以调整一下参数值来看下效果。</p>
 <pre class=" language-go"><code class="language-go">dc <span class="token operator">:=</span> gg<span class="token punctuation">.</span><span class="token function">NewContext</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span>
 dc<span class="token punctuation">.</span><span class="token function">DrawCircle</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">,</span> <span class="token number">300</span><span class="token punctuation">,</span> <span class="token number">400</span><span class="token punctuation">)</span></code></pre>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379645" alt="bccd0784aa493ae20a6b78190597b0b7.png"></p>
+<p><img src="5.png" alt=""></p>
 <p>可以看到，圆心往左上角移动了。还可以调整一下半径参数试试：</p>
 <pre class=" language-go"><code class="language-go">dc <span class="token operator">:=</span> gg<span class="token punctuation">.</span><span class="token function">NewContext</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span>
 dc<span class="token punctuation">.</span><span class="token function">DrawCircle</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">,</span> <span class="token number">300</span><span class="token punctuation">,</span> <span class="token number">300</span><span class="token punctuation">)</span></code></pre>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379646" alt="529d2fb08253c8ea5e5c903972cc79e2.png"></p>
+<p><img src="6.png" alt=""></p>
 <p>这样我们又得到了一个完整的圆。</p>
 <h2 id="调整颜色"><a href="#调整颜色" class="headerlink" title="调整颜色"></a>调整颜色</h2><pre class=" language-go"><code class="language-go">dc<span class="token punctuation">.</span><span class="token function">SetRGB</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
 dc<span class="token punctuation">.</span><span class="token function">Fill</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <p>这两句的意思是先设置颜色值为 <code>(0,0,0)</code>，也就是黑色，乍眼一看这三个值分别对应的是颜色的 <code>R、G、B</code>值，但实际上完全不是这么回事，这里需要注意的是，这三个值分别代表红色、绿色、蓝色的程度，所以如果分别设置为，会得到下面的三张图。</p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379650" alt="a429746393f602d166cd39e69004529e.png"></p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379653" alt="aea01957733fbb70fdb93b2bc05179e4.png"></p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379654" alt="1d17b8efc75bb46973b19eff156a23de.png"></p>
+<p><img src="7.png" alt=""><br><img src="8.png" alt=""><br><img src="9.png" alt=""></p>
 <p>那如果想要根据RGB值来设置颜色该怎么处理呢？其实也很简单，做一个压缩映射即可，<code>RGB</code>值的范围是0～255，表示的含义也是对应色值的程度，这里不过将范围变成了0～1，那我们将需要使用到的值除以255就可以得到对应的映射值了。具体的颜色RGB值跟颜色的对应关系可以在网上搜到。</p>
 <p><a href="https://tool.oschina.net/commons?type=3" target="_blank" rel="noopener">https://tool.oschina.net/commons?type=3</a></p>
 <p>下面我们用淡黄色做一个例子，对应的 <code>RGB</code> 值是 <code>(255,222,173)</code> ，我们添加一下映射转换的代码即可：</p>
@@ -497,7 +495,7 @@ dc<span class="token punctuation">.</span><span class="token function">Fill</spa
     dc<span class="token punctuation">.</span><span class="token function">SavePNG</span><span class="token punctuation">(</span><span class="token string">"out.png"</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span></code></pre>
 <p>这样我们就得到了一张黄图。</p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379655" alt="dbf9afca1199c25ff8d1c382b3e1e84b.png"></p>
+<p><img src="10.png" alt=""></p>
 <h2 id="保存图片"><a href="#保存图片" class="headerlink" title="保存图片"></a>保存图片</h2><pre class=" language-go"><code class="language-go">dc<span class="token punctuation">.</span><span class="token function">SavePNG</span><span class="token punctuation">(</span><span class="token string">"out.png"</span><span class="token punctuation">)</span></code></pre>
 <p><code>SavePNG()</code> 方法可以将当前图形保存成 <code>PNG</code> 格式文件，路径可以是相对路径，也可以是绝对路径。</p>
 <p><code>SaveJPG()</code> 方法可以将当前图形保存成 <code>JPG</code> 格式文件。</p>
@@ -530,7 +528,7 @@ dc <span class="token operator">:=</span> gg<span class="token punctuation">.</s
 dc<span class="token punctuation">.</span><span class="token function">DrawImage</span><span class="token punctuation">(</span>im<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span></code></pre>
 <h2 id="裁剪"><a href="#裁剪" class="headerlink" title="裁剪"></a>裁剪</h2><p>有一个经常使用到的方法叫 <code>Clip()</code> ，该方法可以将图像进行裁剪，裁剪的形状取决于之前画的图形。</p>
 <p>下面来举个例子，这是我们要裁剪的图，我们用一个圆形来对它进行裁剪。</p>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379656" alt="7f0be2135050d32f2208d1c10c73068a.jpeg"></p>
+<p><img src="11.png" alt=""></p>
 <pre class=" language-go"><code class="language-go"><span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token comment" spellcheck="true">// 加载图片，这里路径换成自己的</span>
     im<span class="token punctuation">,</span> err <span class="token operator">:=</span> gg<span class="token punctuation">.</span><span class="token function">LoadImage</span><span class="token punctuation">(</span><span class="token string">"test.jpg"</span><span class="token punctuation">)</span>
@@ -555,7 +553,7 @@ dc<span class="token punctuation">.</span><span class="token function">DrawImage
     dc<span class="token punctuation">.</span><span class="token function">DrawImage</span><span class="token punctuation">(</span>im<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
     dc<span class="token punctuation">.</span><span class="token function">SavePNG</span><span class="token punctuation">(</span><span class="token string">"out.png"</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span></code></pre>
-<p><img src="evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379657" alt="bfb98c879cc848d741f6630f7a0f469a.png"></p>
+<p><img src="12.png" alt=""></p>
 <p>这样一来，头像就做好了【手动狗头】。</p>
 <h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>Go 语言也可以实现对图片进行很多类型的操作，今天主要介绍了图片的加载、保存、绘制圆形、调整大小和颜色以及裁剪。之后还会进一步介绍其它功能。</p>
 <p>我觉得如果不是需要使用并没有熟悉它的必要，但知道有这么个东西，知道它能实现什么样的效果，可以让你手上的牌又多了一张，以后有需要的时候便不至于捉襟见肘了。所以还在等什么，赶紧点赞收藏加关注吧～</p>
@@ -1072,31 +1070,31 @@ dc<span class="token punctuation">.</span><span class="token function">DrawImage
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/breeze-blog/2020/11/29/picture/go-basic-usage-of-gg-package/">
+                <a href="/breeze-blog/2020/12/16/picture/go-pic-rotate-use-gg-package/">
                     <div class="card-image">
                         
                         
-                        <img src="/breeze-blog/medias/featureimages/12.jpg" class="responsive-img" alt="【Go语言绘图】gg 库的基本使用">
+                        <img src="/breeze-blog/medias/featureimages/4.jpg" class="responsive-img" alt="【Go语言绘图】图片的旋转">
                         
-                        <span class="card-title">【Go语言绘图】gg 库的基本使用</span>
+                        <span class="card-title">【Go语言绘图】图片的旋转</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            最近接了个比较大的需求，需要做很多图片处理的事情，比如图片的旋转裁截拼接，各种渐变处理，文字排列，一开始光是想想就头疼。但没有办法，既然已经需求已经到手上了，那就得把它做好才行，于是便开始被迫营业，无证上岗了。
-经过一番查找，找到了一个Go
+                            在上一篇中，我们了解了gg库的基本使用，包括调整大小、调整圆形参数、设置颜色、保存图片、加载图片和裁剪。这一篇我们来学习一下图片的旋转。
+加载图片首先，我们先来一张黄图。
+func TestRotateImage(t *testing.T)
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-29
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-16
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1109,7 +1107,6 @@ dc<span class="token punctuation">.</span><span class="token function">DrawImage
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1396,7 +1393,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">58.8k</span>&nbsp;字
+                class="white-color">59.9k</span>&nbsp;字
             
             
             
