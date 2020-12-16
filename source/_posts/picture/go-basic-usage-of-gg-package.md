@@ -24,11 +24,11 @@ go get -u github.com/fogleman/gg
 
 这个库的一个好处是有很多测试代码，可以拿来跑跑看，就知道它大概能实现什么样的效果了。
 
-![92ac66741a0d052cbe13808f7cf0108e.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379639)
+![](1.png)
 
 这是它例子的大概效果图，可以看到，能实现的图形效果还是挺多的。
 
-![c3befd5d75e3c074881703ad0e76e42e.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379640)
+![](2.png)
 
 我们拿其中的一个代码来简单体验一下：
 
@@ -48,7 +48,7 @@ func main() {
 
 duang 的一下，一张黑不溜秋的圆形图就生成了。
 
-![e55507eb39661977fe10f4aef3a5a2fb.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379642)
+![](3.png)
 
 关于上面的代码，下面会进行逐一说明。
 
@@ -64,7 +64,7 @@ dc := gg.NewContext(1000, 1000)
 dc := gg.NewContext(1000, 500)
 ```
 
-![27c9e4341e0b988c2d357687d344b38b.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379643)
+![](4.png)
 
 可以看到图片被腰斩了，高度矮了一半，同样修改宽度参数也可以得到类似的效果，这里就不演示了。
 
@@ -81,7 +81,7 @@ dc := gg.NewContext(1000, 1000)
 dc.DrawCircle(300, 300, 400)
 ```
 
-![bccd0784aa493ae20a6b78190597b0b7.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379645)
+![](5.png)
 
 可以看到，圆心往左上角移动了。还可以调整一下半径参数试试：
 
@@ -90,7 +90,7 @@ dc := gg.NewContext(1000, 1000)
 dc.DrawCircle(300, 300, 300)
 ```
 
-![529d2fb08253c8ea5e5c903972cc79e2.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379646)
+![](6.png)
 
 这样我们又得到了一个完整的圆。
 
@@ -103,11 +103,9 @@ dc.Fill()
 
 这两句的意思是先设置颜色值为 `(0,0,0)`，也就是黑色，乍眼一看这三个值分别对应的是颜色的 `R、G、B`值，但实际上完全不是这么回事，这里需要注意的是，这三个值分别代表红色、绿色、蓝色的程度，所以如果分别设置为，会得到下面的三张图。
 
-![a429746393f602d166cd39e69004529e.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379650)
-
-![aea01957733fbb70fdb93b2bc05179e4.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379653)
-
-![1d17b8efc75bb46973b19eff156a23de.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379654)
+![](7.png)
+![](8.png)
+![](9.png)
 
 那如果想要根据RGB值来设置颜色该怎么处理呢？其实也很简单，做一个压缩映射即可，`RGB`值的范围是0～255，表示的含义也是对应色值的程度，这里不过将范围变成了0～1，那我们将需要使用到的值除以255就可以得到对应的映射值了。具体的颜色RGB值跟颜色的对应关系可以在网上搜到。
 
@@ -140,7 +138,7 @@ func main() {
 
 这样我们就得到了一张黄图。
 
-![dbf9afca1199c25ff8d1c382b3e1e84b.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379655)
+![](10.png)
 
 ## 保存图片
 
@@ -198,7 +196,7 @@ dc.DrawImage(im, 0, 0)
 
 下面来举个例子，这是我们要裁剪的图，我们用一个圆形来对它进行裁剪。
 
-![7f0be2135050d32f2208d1c10c73068a.jpeg](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379656)
+![](11.png)
 
 ```go
 func main() {
@@ -227,7 +225,7 @@ func main() {
 }
 ```
 
-![bfb98c879cc848d741f6630f7a0f469a.png](evernotecid://E37A235A-C77D-4C53-BD92-C303BA52B3B9/appyinxiangcom/1044679/ENResource/p379657)
+![](12.png)
 
 这样一来，头像就做好了【手动狗头】。
 
