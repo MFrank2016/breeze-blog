@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-12-16T22:50:00.000Z</updated>
+  <updated>2020-12-20T22:45:35.000Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Go语言绘图】图片添加文字（一）</title>
+    <link href="https://mfrank2016.github.io/2020/12/20/picture/go-draw-word-in-pic/"/>
+    <id>https://mfrank2016.github.io/2020/12/20/picture/go-draw-word-in-pic/</id>
+    <published>2020-12-20T22:45:35.000Z</published>
+    <updated>2020-12-20T22:45:35.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;前一篇讲解了利用gg包来进行图片旋转的操作，这一篇我们来看看怎么在图片上添加文字。&lt;/p&gt;
+&lt;h2 id=&quot;绘制纯色背景&quot;&gt;&lt;a href=&quot;#绘制纯色背景&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="go" scheme="https://mfrank2016.github.io/tags/go/"/>
+    
+  </entry>
   
   <entry>
     <title>【Go语言绘图】图片的旋转</title>
@@ -59,34 +87,6 @@
         
           &lt;p&gt;最近接了个比较大的需求，需要做很多图片处理的事情，比如图片的旋转裁截拼接，各种渐变处理，文字排列，一开始光是想想就头疼。但没有办法，既然已经需求已经到手上了，那就得把它做好才行，于是便开始被迫营业，无证上岗了。&lt;/p&gt;
 &lt;p&gt;经过一番查找，找到了一个Go语言图片处理的库，经
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="go" scheme="https://mfrank2016.github.io/tags/go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Go语言绘图】图片添加文字（一）</title>
-    <link href="https://mfrank2016.github.io/2020/11/29/picture/go-draw-word-in-pic/"/>
-    <id>https://mfrank2016.github.io/2020/11/29/picture/go-draw-word-in-pic/</id>
-    <published>2020-11-29T22:45:35.000Z</published>
-    <updated>2020-11-29T22:45:35.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;前一篇讲解了利用gg包来进行图片旋转的操作，这一篇我们来看看怎么在图片上添加文字。&lt;/p&gt;
-&lt;h2 id=&quot;绘制纯色背景&quot;&gt;&lt;a href=&quot;#绘制纯色背景&quot; class=&quot;headerlink&quot;
         
       
     

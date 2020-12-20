@@ -393,14 +393,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-11-29
+                    2020-12-20
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-11-29
+                    2020-12-20
                 </div>
                 
 
@@ -754,7 +754,7 @@ lineText <span class="token operator">:=</span> <span class="token function">Tru
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://mfrank2016.github.io/breeze-blog/2020/11/29/picture/go-draw-word-in-pic/">https://mfrank2016.github.io/breeze-blog/2020/11/29/picture/go-draw-word-in-pic/</a>
+                    <a href="https://mfrank2016.github.io/breeze-blog/2020/12/20/picture/go-draw-word-in-pic/">https://mfrank2016.github.io/breeze-blog/2020/12/20/picture/go-draw-word-in-pic/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1224,30 +1224,34 @@ lineText <span class="token operator">:=</span> <span class="token function">Tru
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/breeze-blog/2020/11/29/picture/go-basic-usage-of-gg-package/">
+                <a href="/breeze-blog/2020/12/20/picture/go-draw-word-in-pic/">
                     <div class="card-image">
                         
                         
-                        <img src="/breeze-blog/medias/featureimages/12.jpg" class="responsive-img" alt="【Go语言绘图】gg 库的基本使用">
+                        <img src="/breeze-blog/medias/featureimages/5.jpg" class="responsive-img" alt="【Go语言绘图】图片添加文字（一）">
                         
-                        <span class="card-title">【Go语言绘图】gg 库的基本使用</span>
+                        <span class="card-title">【Go语言绘图】图片添加文字（一）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            最近接了个比较大的需求，需要做很多图片处理的事情，比如图片的旋转裁截拼接，各种渐变处理，文字排列，一开始光是想想就头疼。但没有办法，既然已经需求已经到手上了，那就得把它做好才行，于是便开始被迫营业，无证上岗了。
-经过一番查找，找到了一个Go
+                            前一篇讲解了利用gg包来进行图片旋转的操作，这一篇我们来看看怎么在图片上添加文字。
+绘制纯色背景首先，我们先绘制一个纯白色的背景，作为添加文字的背景板。
+package main
+
+import "github.com/fogleman/g
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-29
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-20
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1260,6 +1264,7 @@ lineText <span class="token operator">:=</span> <span class="token function">Tru
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1278,25 +1283,26 @@ lineText <span class="token operator">:=</span> <span class="token function">Tru
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/breeze-blog/2020/11/28/data-analysis/r-study-basic-type/">
+                <a href="/breeze-blog/2020/12/16/picture/go-pic-rotate-use-gg-package/">
                     <div class="card-image">
                         
                         
-                        <img src="/breeze-blog/medias/featureimages/12.jpg" class="responsive-img" alt="【R语言入门】R语言中的变量与基本数据类型">
+                        <img src="/breeze-blog/medias/featureimages/4.jpg" class="responsive-img" alt="【Go语言绘图】图片的旋转">
                         
-                        <span class="card-title">【R语言入门】R语言中的变量与基本数据类型</span>
+                        <span class="card-title">【Go语言绘图】图片的旋转</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            说明在前一篇中，我们介绍了 R 语言和 R Studio 的安装，并简单的介绍了一个示例，接下来让我们由浅入深的学习 R 语言的相关知识。
-本篇将主要介绍 R 语言的基本操作、变量和几种基本数据类型，好对 R 语言的使用方法有一个基本的概念
+                            在上一篇中，我们了解了gg库的基本使用，包括调整大小、调整圆形参数、设置颜色、保存图片、加载图片和裁剪。这一篇我们来学习一下图片的旋转。
+加载图片首先，我们先来一张黄图。
+func TestRotateImage(t *testing.T)
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-16
                             </span>
                         <span class="publish-author">
                             
@@ -1306,10 +1312,6 @@ lineText <span class="token operator">:=</span> <span class="token function">Tru
                                     编程
                                 </a>
                             
-                            <a href="/breeze-blog/categories/programming/data-analysis/" class="post-category">
-                                    数据分析
-                                </a>
-                            
                             
                         </span>
                     </div>
@@ -1317,8 +1319,8 @@ lineText <span class="token operator">:=</span> <span class="token function">Tru
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/breeze-blog/tags/R/">
-                        <span class="chip bg-color">R</span>
+                    <a href="/breeze-blog/tags/go/">
+                        <span class="chip bg-color">go</span>
                     </a>
                     
                 </div>
