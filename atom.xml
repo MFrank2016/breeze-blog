@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-12-16T22:50:00.000Z</updated>
+  <updated>2020-12-20T02:32:00.256Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>picture/go-draw-word-in-pic</title>
+    <link href="https://mfrank2016.github.io/2020/12/20/picture/go-draw-word-in-pic/"/>
+    <id>https://mfrank2016.github.io/2020/12/20/picture/go-draw-word-in-pic/</id>
+    <published>2020-12-20T02:32:00.256Z</published>
+    <updated>2020-12-20T02:32:00.256Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>【Go语言绘图】图片的旋转</title>
@@ -573,38 +600,6 @@
       <category term="github pages" scheme="https://mfrank2016.github.io/tags/github-pages/"/>
     
       <category term="travis ci" scheme="https://mfrank2016.github.io/tags/travis-ci/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java入门篇】小结</title>
-    <link href="https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/"/>
-    <id>https://mfrank2016.github.io/2020/05/01/java/introduction/java-primer-conclusion/</id>
-    <published>2020-05-01T22:33:08.000Z</published>
-    <updated>2020-05-01T22:33:08.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;只要你在，我便无所不能。 – 《进击的巨人》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;小结&quot;&gt;&lt;a href=&quot;#小结&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java入门" scheme="https://mfrank2016.github.io/tags/java-beginning/"/>
     
   </entry>
   
