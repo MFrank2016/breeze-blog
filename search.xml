@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>picture/go-draw-word-in-pic2</title>
+      <link href="/breeze-blog/2020/12/22/picture/go-draw-word-in-pic2/"/>
+      <url>/breeze-blog/2020/12/22/picture/go-draw-word-in-pic2/</url>
+      
+        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Go语言绘图】图片添加文字（一）</title>
       <link href="/breeze-blog/2020/12/20/picture/go-draw-word-in-pic/"/>
       <url>/breeze-blog/2020/12/20/picture/go-draw-word-in-pic/</url>

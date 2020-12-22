@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-12-20T22:45:35.000Z</updated>
+  <updated>2020-12-22T12:21:29.649Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>picture/go-draw-word-in-pic2</title>
+    <link href="https://mfrank2016.github.io/2020/12/22/picture/go-draw-word-in-pic2/"/>
+    <id>https://mfrank2016.github.io/2020/12/22/picture/go-draw-word-in-pic2/</id>
+    <published>2020-12-22T12:21:29.649Z</published>
+    <updated>2020-12-22T12:21:29.649Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>【Go语言绘图】图片添加文字（一）</title>
@@ -566,41 +593,6 @@
       <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
     
       <category term="Hexo" scheme="https://mfrank2016.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（一）</title>
-    <link href="https://mfrank2016.github.io/2020/05/02/hexo/hexo-start/"/>
-    <id>https://mfrank2016.github.io/2020/05/02/hexo/hexo-start/</id>
-    <published>2020-05-02T11:51:35.000Z</published>
-    <updated>2020-05-02T11:51:35.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;一、说明&quot;&gt;&lt;a href=&quot;#一、说明&quot; class=&quot;headerlink&quot; title=&quot;一、说明&quot;&gt;&lt;/a&gt;一、说明&lt;/h2&gt;&lt;p&gt;本系列文章将会详细说明使用 &lt;code&gt;Hexo&lt;/code&gt; + &lt;code&gt;github pages&lt;/code&gt;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-      <category term="生活" scheme="https://mfrank2016.github.io/categories/programming/life/"/>
-    
-    
-      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
-    
-      <category term="Hexo" scheme="https://mfrank2016.github.io/tags/Hexo/"/>
-    
-      <category term="github pages" scheme="https://mfrank2016.github.io/tags/github-pages/"/>
-    
-      <category term="travis ci" scheme="https://mfrank2016.github.io/tags/travis-ci/"/>
     
   </entry>
   
