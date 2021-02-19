@@ -6,7 +6,7 @@
   <link href="/breeze-blog/atom.xml" rel="self"/>
   
   <link href="https://mfrank2016.github.io/"/>
-  <updated>2020-12-22T12:21:29.649Z</updated>
+  <updated>2021-02-19T05:22:17.619Z</updated>
   <id>https://mfrank2016.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>picture/go-draw-word-in-pic2</title>
-    <link href="https://mfrank2016.github.io/2020/12/22/picture/go-draw-word-in-pic2/"/>
-    <id>https://mfrank2016.github.io/2020/12/22/picture/go-draw-word-in-pic2/</id>
-    <published>2020-12-22T12:21:29.649Z</published>
-    <updated>2020-12-22T12:21:29.649Z</updated>
+    <title>conclusion/2020-conclusion-working</title>
+    <link href="https://mfrank2016.github.io/2021/02/19/conclusion/2020-conclusion-working/"/>
+    <id>https://mfrank2016.github.io/2021/02/19/conclusion/2020-conclusion-working/</id>
+    <published>2021-02-19T05:22:17.619Z</published>
+    <updated>2021-02-19T05:22:17.619Z</updated>
     
     <summary type="html">
     
@@ -40,6 +40,60 @@
     </summary>
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>我的2020【健身篇】</title>
+    <link href="https://mfrank2016.github.io/2021/02/17/conclusion/2020-conclusion-slim/"/>
+    <id>https://mfrank2016.github.io/2021/02/17/conclusion/2020-conclusion-slim/</id>
+    <published>2021-02-17T22:54:35.000Z</published>
+    <updated>2021-02-17T22:54:35.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;难忘的一年&quot;&gt;&lt;a href=&quot;#难忘的一年&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="life" scheme="https://mfrank2016.github.io/categories/life/"/>
+    
+    
+      <category term="年终总结" scheme="https://mfrank2016.github.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Go语言绘图】图片添加文字（二）</title>
+    <link href="https://mfrank2016.github.io/2020/12/22/picture/go-draw-word-in-pic2/"/>
+    <id>https://mfrank2016.github.io/2020/12/22/picture/go-draw-word-in-pic2/</id>
+    <published>2020-12-22T22:40:35.000Z</published>
+    <updated>2020-12-22T22:40:35.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这一篇将继续介绍gg库中绘制文字相关的方法，主要包括：&lt;code&gt;DrawStringAnchored()&lt;/code&gt;、&lt;code&gt;DrawStringWrapped()&lt;/code&gt;、&lt;code&gt;MeasureMultilineString()&lt;/code&gt;、&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
+    
+    
+      <category term="go" scheme="https://mfrank2016.github.io/tags/go/"/>
     
   </entry>
   
@@ -532,67 +586,6 @@
       <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
     
       <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java基础篇】启航</title>
-    <link href="https://mfrank2016.github.io/2020/05/04/java/basic/java-basic/"/>
-    <id>https://mfrank2016.github.io/2020/05/04/java/basic/java-basic/</id>
-    <published>2020-05-04T00:25:01.000Z</published>
-    <updated>2020-05-04T00:25:01.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;无论最终的结果是什么，只要这是自己选择的道路。 – 《龙与虎》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="Java" scheme="https://mfrank2016.github.io/tags/Java/"/>
-    
-      <category term="Java基础" scheme="https://mfrank2016.github.io/tags/java-basic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo】使用Hexo+github pages+travis ci搭建好看的个人博客（二）</title>
-    <link href="https://mfrank2016.github.io/2020/05/03/hexo/hexo-config/"/>
-    <id>https://mfrank2016.github.io/2020/05/03/hexo/hexo-config/</id>
-    <published>2020-05-03T21:29:17.000Z</published>
-    <updated>2020-05-03T21:29:17.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;上一篇里，介绍了使用 &lt;code&gt;Hexo&lt;/code&gt; + &lt;code&gt;github pages&lt;/code&gt; +
-        
-      
-    
-    </summary>
-    
-    
-      <category term="编程" scheme="https://mfrank2016.github.io/categories/programming/"/>
-    
-    
-      <category term="环境搭建" scheme="https://mfrank2016.github.io/tags/environment-building/"/>
-    
-      <category term="Hexo" scheme="https://mfrank2016.github.io/tags/Hexo/"/>
     
   </entry>
   
